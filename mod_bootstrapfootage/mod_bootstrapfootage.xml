@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Bootstrap Footage</name>
+    <version>1.0</version>
+    <description>Place a bootstrap Footage with custom content into any module position</description>
+    <files>
+        <filename module="mod_bootstrapfootage">mod_bootstrapfootage.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_bootstrapfootage.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">   
+            <fieldset name="basic">
+                <field 
+                    name="footage_text" 
+                    type="text" 
+                    default="Copyright © Your Website 2014" 
+                    label="Footer Text" 
+                    description="The text for the footer">
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

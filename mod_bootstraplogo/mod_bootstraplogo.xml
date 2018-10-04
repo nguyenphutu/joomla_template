@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Bootstrap Logo</name>
+    <version>1.0</version>
+    <description>Place a bootstrap Logo with custom content into any module position</description>
+    <files>
+        <filename module="mod_bootstraplogo">mod_bootstraplogo.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_bootstraplogo.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">   
+            <fieldset name="basic">
+                
+            </fieldset>
+        </fields>
+    </config>
+</extension>

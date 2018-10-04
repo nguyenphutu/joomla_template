@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>BigSlider Module</name>
+    <version>1.0</version>
+    <description>Place a bigslider in a module position</description>
+    <files>
+        <filename module="mod_bigslider">mod_bigslider.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_bigslider.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>    
+</extension>
