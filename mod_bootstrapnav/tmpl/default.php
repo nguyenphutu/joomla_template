@@ -15,24 +15,22 @@ defined('_JEXEC') or die;
 <?php //print_r($list); ?>
 <style>
 
-.navbar, .navbar .container{
+.navbar, .navbar .container {
     background: <?php echo $background_color; ?> !important;
 }
 
-.navbar-nav > li > a{
+.navbar-nav > li > a {
      color:<?php echo $text_color; ?> !important;
      text-shadow: 0 0 0 !important;
 }
 
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
      background: <?php echo $active_background_color; ?> !important;
 }
 
-
 </style>
 <?php if($nav_type == 'navbar') : ?>
-
 <div class="container">
     <div class="navbar <?php echo $fixed; ?>" role="navigation">
         <div class="navbar-header">
