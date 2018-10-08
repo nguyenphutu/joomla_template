@@ -7,7 +7,7 @@
 defined('_JEXEC') or die;
 
 /* Params */
-$footage_text = 	htmlspecialchars($params->get('footage_text'));
+$footage_text = htmlspecialchars($params->get('footage_text'));
 // Include the syndicate functions only once
 require_once dirname(__FILE__).'/helper.php';
 

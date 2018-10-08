@@ -6,7 +6,5 @@
 //No Direct Access
 defined('_JEXEC') or die;
 
-class modBootstrapFootageHelper{
-   
-}
+class modBootstrapFootageHelper{}
 ?>

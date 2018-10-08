@@ -7,10 +7,10 @@
 defined('_JEXEC') or die;
 ?>
 <!-- Header Carousel -->
-<header id="myCarousel" class="carousel slide" style="margin-bottom: 50px;">
+<header class="carousel slide" id="myCarousel" style="margin-bottom: 50px;">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
 		<li data-target="#myCarousel" data-slide-to="1"></li>
 		<li data-target="#myCarousel" data-slide-to="2"></li>
 	</ol>
@@ -36,12 +36,11 @@ defined('_JEXEC') or die;
 			</div>
 		</div>
 	</div>
-
 	<!-- Controls -->
-	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	<a class="left carousel-control" data-slide="prev" href="#myCarousel" >
 		<span class="icon-prev"></span>
 	</a>
-	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+	<a class="right carousel-control" data-slide="next" href="#myCarousel" >
 		<span class="icon-next"></span>
 	</a>
 </header>

@@ -6,7 +6,6 @@
 //No Direct Access
 defined('_JEXEC') or die;
 ?>
-
 <div class="panel <?php echo $moduleclass_sfx; ?>">
 	<div class="panel-heading">
 		<h4> 

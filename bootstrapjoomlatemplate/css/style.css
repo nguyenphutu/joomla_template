@@ -1,0 +1,13 @@
+body {
+    padding-top: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+footer {
+    margin: 0;
+}
+.box_image{
+    height: 60px;
+}
