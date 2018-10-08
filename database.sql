@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2018 at 05:43 AM
+-- Generation Time: Oct 08, 2018 at 04:17 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -44,7 +44,7 @@ CREATE TABLE `demo_assets` (
 --
 
 INSERT INTO `demo_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `title`, `rules`) VALUES
-(1, 0, 0, 193, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
+(1, 0, 0, 199, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
 (2, 1, 1, 2, 1, 'com_admin', 'com_admin', '{}'),
 (3, 1, 3, 6, 1, 'com_banners', 'com_banners', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
 (4, 1, 7, 8, 1, 'com_cache', 'com_cache', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
@@ -61,25 +61,25 @@ INSERT INTO `demo_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `ti
 (15, 1, 41, 42, 1, 'com_media', 'com_media', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.delete\":{\"5\":1}}'),
 (16, 1, 43, 52, 1, 'com_menus', 'com_menus', '{\"core.admin\":{\"7\":1}}'),
 (17, 1, 53, 54, 1, 'com_messages', 'com_messages', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
-(18, 1, 55, 144, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
-(19, 1, 145, 148, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(20, 1, 149, 150, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
-(21, 1, 151, 152, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
-(22, 1, 153, 154, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(23, 1, 155, 156, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
-(24, 1, 157, 160, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
-(26, 1, 161, 162, 1, 'com_wrapper', 'com_wrapper', '{}'),
+(18, 1, 55, 150, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
+(19, 1, 151, 154, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(20, 1, 155, 156, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
+(21, 1, 157, 158, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
+(22, 1, 159, 160, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(23, 1, 161, 162, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
+(24, 1, 163, 166, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
+(26, 1, 167, 168, 1, 'com_wrapper', 'com_wrapper', '{}'),
 (27, 8, 18, 19, 2, 'com_content.category.2', 'Uncategorised', '{}'),
 (28, 3, 4, 5, 2, 'com_banners.category.3', 'Uncategorised', '{}'),
 (29, 7, 14, 15, 2, 'com_contact.category.4', 'Uncategorised', '{}'),
-(30, 19, 146, 147, 2, 'com_newsfeeds.category.5', 'Uncategorised', '{}'),
-(32, 24, 158, 159, 2, 'com_users.category.7', 'Uncategorised', '{}'),
-(33, 1, 163, 164, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(34, 1, 165, 166, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
-(35, 1, 167, 168, 1, 'com_tags', 'com_tags', '{}'),
-(36, 1, 169, 170, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
-(37, 1, 171, 172, 1, 'com_ajax', 'com_ajax', '{}'),
-(38, 1, 173, 174, 1, 'com_postinstall', 'com_postinstall', '{}'),
+(30, 19, 152, 153, 2, 'com_newsfeeds.category.5', 'Uncategorised', '{}'),
+(32, 24, 164, 165, 2, 'com_users.category.7', 'Uncategorised', '{}'),
+(33, 1, 169, 170, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(34, 1, 171, 172, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
+(35, 1, 173, 174, 1, 'com_tags', 'com_tags', '{}'),
+(36, 1, 175, 176, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
+(37, 1, 177, 178, 1, 'com_ajax', 'com_ajax', '{}'),
+(38, 1, 179, 180, 1, 'com_postinstall', 'com_postinstall', '{}'),
 (39, 18, 56, 57, 2, 'com_modules.module.1', 'Main Menu', '{}'),
 (40, 18, 58, 59, 2, 'com_modules.module.2', 'Login', '{}'),
 (41, 18, 60, 61, 2, 'com_modules.module.3', 'Popular Articles', '{}'),
@@ -107,15 +107,15 @@ INSERT INTO `demo_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `ti
 (64, 16, 50, 51, 2, 'com_menus.menu.4', 'Hello world', '{}'),
 (65, 18, 94, 95, 2, 'com_modules.module.91', 'Hello world', '{}'),
 (66, 8, 26, 27, 2, 'com_content.category.9', 'demo', '{}'),
-(73, 1, 175, 188, 1, 'com_student', 'COM_STUDENT', '{}'),
-(74, 73, 176, 177, 2, 'com_student.student.1', 'Admin', '{}'),
-(75, 73, 178, 179, 2, 'com_student.student.3', 'demo', '{}'),
-(76, 73, 180, 181, 2, 'com_student.student.4', 'demo', '{}'),
-(77, 73, 182, 183, 2, 'com_student.student.5', 'demo', '{}'),
-(78, 73, 184, 185, 2, 'com_student.student.6', 'demo', '{}'),
-(79, 73, 186, 187, 2, 'com_student.student.7', 'fdasasd', '{}'),
-(80, 1, 189, 192, 1, 'com_helloworld', 'COM_HELLOWORLD', '{}'),
-(81, 80, 190, 191, 2, 'com_helloworld.helloworld.3', 'Good bye World!', '{}'),
+(73, 1, 181, 194, 1, 'com_student', 'COM_STUDENT', '{}'),
+(74, 73, 182, 183, 2, 'com_student.student.1', 'Admin', '{}'),
+(75, 73, 184, 185, 2, 'com_student.student.3', 'demo', '{}'),
+(76, 73, 186, 187, 2, 'com_student.student.4', 'demo', '{}'),
+(77, 73, 188, 189, 2, 'com_student.student.5', 'demo', '{}'),
+(78, 73, 190, 191, 2, 'com_student.student.6', 'demo', '{}'),
+(79, 73, 192, 193, 2, 'com_student.student.7', 'fdasasd', '{}'),
+(80, 1, 195, 198, 1, 'com_helloworld', 'COM_HELLOWORLD', '{}'),
+(81, 80, 196, 197, 2, 'com_helloworld.helloworld.3', 'Good bye World!', '{}'),
 (82, 18, 96, 97, 2, 'com_modules.module.92', 'Bootstrap Nav', '{}'),
 (83, 18, 98, 99, 2, 'com_modules.module.93', 'Bootstrap Slider', '{}'),
 (84, 18, 100, 101, 2, 'com_modules.module.94', 'BigSlider Module', '{}'),
@@ -140,7 +140,10 @@ INSERT INTO `demo_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `ti
 (103, 18, 138, 139, 2, 'com_modules.module.113', 'Bootstrap Footage', '{}'),
 (104, 61, 23, 24, 3, 'com_content.article.2', 'About', '{}'),
 (105, 18, 140, 141, 2, 'com_modules.module.114', 'Bootstrap Banner', '{}'),
-(106, 18, 142, 143, 2, 'com_modules.module.115', 'Bootstrap Logo', '{}');
+(106, 18, 142, 143, 2, 'com_modules.module.115', 'Bootstrap Logo', '{}'),
+(107, 18, 144, 145, 2, 'com_modules.module.116', 'Bootstrap Content 3 BT4', '{}'),
+(108, 18, 146, 147, 2, 'com_modules.module.117', 'Bootstrap Content 3 BT4 (2)', '{}'),
+(109, 18, 148, 149, 2, 'com_modules.module.118', 'Bootstrap Contact', '{}');
 
 -- --------------------------------------------------------
 
@@ -401,8 +404,8 @@ CREATE TABLE `demo_content` (
 --
 
 INSERT INTO `demo_content` (`id`, `asset_id`, `title`, `alias`, `introtext`, `fulltext`, `state`, `catid`, `created`, `created_by`, `created_by_alias`, `modified`, `modified_by`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `images`, `urls`, `attribs`, `version`, `ordering`, `metakey`, `metadesc`, `access`, `hits`, `metadata`, `featured`, `language`, `xreference`) VALUES
-(1, 60, 'Getting start', 'getting-start', '<div class=\"page-header\">\r\n<h1>Getting Started with Joomla!</h1>\r\n</div>\r\n<div>\r\n<p class=\"lead\">Joomla! makes creating and maintaining Web sites easy for everyone, from total beginners setting up their first site to IT professionals managing enterprise installations.</p>\r\n<h2>Get the Basic Details</h2>\r\n<p>If you have never used Joomla! before, you might want to read <a href=\"https://www.joomla.org/about-joomla.html\">What is Joomla?</a> first. If you are evaluating Joomla! for use on a project, you may want to review <a href=\"https://docs.joomla.org/Special:MyLanguage/Evaluators\">the materials for evaluators</a> on the <a href=\"https://docs.joomla.org/Special:MyLanguage\">Joomla! Documentation Wiki.</a></p>\r\n<h2>Download Joomla! and Run it yourself.</h2>\r\n<p>If you\'re ready to install Joomla, <a title=\"Download Joomla! latest version\" href=\"https://downloads.joomla.org/latest\">download the latest version here</a>, you\'ll be up and running in no time. You can also check out the short FAQ on that page and read the tutorial on <a title=\"How to install Joomla?\" href=\"https://docs.joomla.org/Special:MyLanguage/J3.x:Installing_Joomla\" target=\"_blank\" rel=\"noopener noreferrer\">how to install Joomla</a>.</p>\r\n<h2>Get started on launch.joomla.org</h2>\r\n<p><a href=\"https://launch.joomla.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Launch.joomla.org</a> allows you to launch a fully functional and free Joomla website. You will get started with just a click on a button, opening up to endless possibilities, full responsive, multilingual... It even includes sFTP, PHPMyAdmin, and the ability to install extensions. You can keep it as long as you login and click a “renew” button once every 30 days. The only limitations are 200mb of disk space, subdomain usage, and your imagination...</p>\r\n<h2>Find Documentation and Help</h2>\r\n<p>Localised documentation for Joomla! is available on the Joomla! Documentation Wiki at <a href=\"https://docs.joomla.org/Special:MyLanguage/Main_Page\">docs.joomla.org</a>. Choosing a <a href=\"https://docs.joomla.org/Special:MyLanguage/Start_here\">user type</a> will help you find the appropriate resources on the wiki. The wiki page <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Beginners\">The Absolute Beginners Guide to Joomla</a> contains lots of information, advice, and links for first time users. If you have more questions, visit the <a href=\"https://forum.joomla.org/\">Joomla! forums</a>.</p>\r\n<h2>Get Ready to Install</h2>\r\n<p>Getting started on your Joomla! web site is easy to do. Many hosting services offer a simple one-click installation, but if you\'d rather be more hands-on, have more control or are your own host, all you need is a Web server with <a href=\"http://www.php.net/\" target=\"_blank\" rel=\"noopener noreferrer\">PHP</a> and <a href=\"http://www.mysql.com/\" target=\"_blank\" rel=\"noopener noreferrer\">MySQL</a>. Most commercial hosts provide these as part of their basic package of services. Then <a title=\"Joomla! Downloads Website\" href=\"https://downloads.joomla.org/\">download a copy of Joomla</a>. Then visit our <a href=\"https://docs.joomla.org/Special:MyLanguage/J3.x:Installing_Joomla\">install documentation</a> to continue your adventure.</p>\r\n<h2>For Developers and Designers</h2>\r\n<p>If you\'re looking to get started in Joomla! development, <a href=\"https://developer.joomla.org/\">developer.joomla.org</a> is the best place for you to start. There you\'ll find tons of information on Joomla, the APIs and much more. Also more documentation is available on <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Developers\">docs.joomla.org</a>.</p>\r\n<p>If you\'re a designer and want to learn more about creating Joomla! templates, the <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Template_Management\">Template management section</a> shows how easy it is to design in Joomla.</p>\r\n<p>If you are an administrator you can find your <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Administrators\">documentation here</a>.</p>\r\n</div>', '', 1, 8, '2018-09-07 01:23:43', 468, '', '2018-10-01 16:18:52', 468, 0, '0000-00-00 00:00:00', '2018-09-07 01:23:43', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 1, '', '', 1, 13, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', ''),
-(2, 104, 'About', 'about', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>', '', 1, 8, '2018-10-04 09:25:02', 468, '', '2018-10-04 09:25:02', 0, 0, '0000-00-00 00:00:00', '2018-10-04 09:25:02', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 0, '', '', 1, 9, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '');
+(1, 60, 'Getting start', 'getting-start', '<div class=\"page-header\">\r\n<h1>Getting Started with Joomla!</h1>\r\n</div>\r\n<div>\r\n<p class=\"lead\">Joomla! makes creating and maintaining Web sites easy for everyone, from total beginners setting up their first site to IT professionals managing enterprise installations.</p>\r\n<h2>Get the Basic Details</h2>\r\n<p>If you have never used Joomla! before, you might want to read <a href=\"https://www.joomla.org/about-joomla.html\">What is Joomla?</a> first. If you are evaluating Joomla! for use on a project, you may want to review <a href=\"https://docs.joomla.org/Special:MyLanguage/Evaluators\">the materials for evaluators</a> on the <a href=\"https://docs.joomla.org/Special:MyLanguage\">Joomla! Documentation Wiki.</a></p>\r\n<h2>Download Joomla! and Run it yourself.</h2>\r\n<p>If you\'re ready to install Joomla, <a title=\"Download Joomla! latest version\" href=\"https://downloads.joomla.org/latest\">download the latest version here</a>, you\'ll be up and running in no time. You can also check out the short FAQ on that page and read the tutorial on <a title=\"How to install Joomla?\" href=\"https://docs.joomla.org/Special:MyLanguage/J3.x:Installing_Joomla\" target=\"_blank\" rel=\"noopener noreferrer\">how to install Joomla</a>.</p>\r\n<h2>Get started on launch.joomla.org</h2>\r\n<p><a href=\"https://launch.joomla.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Launch.joomla.org</a> allows you to launch a fully functional and free Joomla website. You will get started with just a click on a button, opening up to endless possibilities, full responsive, multilingual... It even includes sFTP, PHPMyAdmin, and the ability to install extensions. You can keep it as long as you login and click a “renew” button once every 30 days. The only limitations are 200mb of disk space, subdomain usage, and your imagination...</p>\r\n<h2>Find Documentation and Help</h2>\r\n<p>Localised documentation for Joomla! is available on the Joomla! Documentation Wiki at <a href=\"https://docs.joomla.org/Special:MyLanguage/Main_Page\">docs.joomla.org</a>. Choosing a <a href=\"https://docs.joomla.org/Special:MyLanguage/Start_here\">user type</a> will help you find the appropriate resources on the wiki. The wiki page <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Beginners\">The Absolute Beginners Guide to Joomla</a> contains lots of information, advice, and links for first time users. If you have more questions, visit the <a href=\"https://forum.joomla.org/\">Joomla! forums</a>.</p>\r\n<h2>Get Ready to Install</h2>\r\n<p>Getting started on your Joomla! web site is easy to do. Many hosting services offer a simple one-click installation, but if you\'d rather be more hands-on, have more control or are your own host, all you need is a Web server with <a href=\"http://www.php.net/\" target=\"_blank\" rel=\"noopener noreferrer\">PHP</a> and <a href=\"http://www.mysql.com/\" target=\"_blank\" rel=\"noopener noreferrer\">MySQL</a>. Most commercial hosts provide these as part of their basic package of services. Then <a title=\"Joomla! Downloads Website\" href=\"https://downloads.joomla.org/\">download a copy of Joomla</a>. Then visit our <a href=\"https://docs.joomla.org/Special:MyLanguage/J3.x:Installing_Joomla\">install documentation</a> to continue your adventure.</p>\r\n<h2>For Developers and Designers</h2>\r\n<p>If you\'re looking to get started in Joomla! development, <a href=\"https://developer.joomla.org/\">developer.joomla.org</a> is the best place for you to start. There you\'ll find tons of information on Joomla, the APIs and much more. Also more documentation is available on <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Developers\">docs.joomla.org</a>.</p>\r\n<p>If you\'re a designer and want to learn more about creating Joomla! templates, the <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Template_Management\">Template management section</a> shows how easy it is to design in Joomla.</p>\r\n<p>If you are an administrator you can find your <a href=\"https://docs.joomla.org/Special:MyLanguage/Portal:Administrators\">documentation here</a>.</p>\r\n</div>', '', 1, 8, '2018-09-07 01:23:43', 468, '', '2018-10-01 16:18:52', 468, 0, '0000-00-00 00:00:00', '2018-09-07 01:23:43', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 1, '', '', 1, 16, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', ''),
+(2, 104, 'About', 'about', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>', '', 1, 8, '2018-10-04 09:25:02', 468, '', '2018-10-04 09:25:02', 0, 0, '0000-00-00 00:00:00', '2018-10-04 09:25:02', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 0, '', '', 1, 88, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '');
 
 -- --------------------------------------------------------
 
@@ -493,6 +496,126 @@ CREATE TABLE `demo_core_log_searches` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `demo_db`
+--
+
+CREATE TABLE `demo_db` (
+  `id` int(10) UNSIGNED NOT NULL COMMENT 'Primary Key',
+  `parent_id` int(11) NOT NULL DEFAULT '0' COMMENT 'Nested set parent.',
+  `lft` int(11) NOT NULL DEFAULT '0' COMMENT 'Nested set lft.',
+  `rgt` int(11) NOT NULL DEFAULT '0' COMMENT 'Nested set rgt.',
+  `level` int(10) UNSIGNED NOT NULL COMMENT 'The cached level in the nested tree.',
+  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'The unique name for the asset.\n',
+  `title` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'The descriptive title for the asset.',
+  `rules` varchar(5120) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'JSON encoded access control.'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `demo_db`
+--
+
+INSERT INTO `demo_db` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `title`, `rules`) VALUES
+(1, 0, 0, 193, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
+(2, 1, 1, 2, 1, 'com_admin', 'com_admin', '{}'),
+(3, 1, 3, 6, 1, 'com_banners', 'com_banners', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(4, 1, 7, 8, 1, 'com_cache', 'com_cache', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
+(5, 1, 9, 10, 1, 'com_checkin', 'com_checkin', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
+(6, 1, 11, 12, 1, 'com_config', 'com_config', '{}'),
+(7, 1, 13, 16, 1, 'com_contact', 'com_contact', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(8, 1, 17, 28, 1, 'com_content', 'com_content', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.edit\":{\"4\":1},\"core.edit.state\":{\"5\":1}}'),
+(9, 1, 29, 30, 1, 'com_cpanel', 'com_cpanel', '{}'),
+(10, 1, 31, 32, 1, 'com_installer', 'com_installer', '{\"core.manage\":{\"7\":0},\"core.delete\":{\"7\":0},\"core.edit.state\":{\"7\":0}}'),
+(11, 1, 33, 34, 1, 'com_languages', 'com_languages', '{\"core.admin\":{\"7\":1}}'),
+(12, 1, 35, 36, 1, 'com_login', 'com_login', '{}'),
+(13, 1, 37, 38, 1, 'com_mailto', 'com_mailto', '{}'),
+(14, 1, 39, 40, 1, 'com_massmail', 'com_massmail', '{}'),
+(15, 1, 41, 42, 1, 'com_media', 'com_media', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.delete\":{\"5\":1}}'),
+(16, 1, 43, 52, 1, 'com_menus', 'com_menus', '{\"core.admin\":{\"7\":1}}'),
+(17, 1, 53, 54, 1, 'com_messages', 'com_messages', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
+(18, 1, 55, 144, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
+(19, 1, 145, 148, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(20, 1, 149, 150, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
+(21, 1, 151, 152, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
+(22, 1, 153, 154, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(23, 1, 155, 156, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
+(24, 1, 157, 160, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
+(26, 1, 161, 162, 1, 'com_wrapper', 'com_wrapper', '{}'),
+(27, 8, 18, 19, 2, 'com_content.category.2', 'Uncategorised', '{}'),
+(28, 3, 4, 5, 2, 'com_banners.category.3', 'Uncategorised', '{}'),
+(29, 7, 14, 15, 2, 'com_contact.category.4', 'Uncategorised', '{}'),
+(30, 19, 146, 147, 2, 'com_newsfeeds.category.5', 'Uncategorised', '{}'),
+(32, 24, 158, 159, 2, 'com_users.category.7', 'Uncategorised', '{}'),
+(33, 1, 163, 164, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(34, 1, 165, 166, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
+(35, 1, 167, 168, 1, 'com_tags', 'com_tags', '{}'),
+(36, 1, 169, 170, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
+(37, 1, 171, 172, 1, 'com_ajax', 'com_ajax', '{}'),
+(38, 1, 173, 174, 1, 'com_postinstall', 'com_postinstall', '{}'),
+(39, 18, 56, 57, 2, 'com_modules.module.1', 'Main Menu', '{}'),
+(40, 18, 58, 59, 2, 'com_modules.module.2', 'Login', '{}'),
+(41, 18, 60, 61, 2, 'com_modules.module.3', 'Popular Articles', '{}'),
+(42, 18, 62, 63, 2, 'com_modules.module.4', 'Recently Added Articles', '{}'),
+(43, 18, 64, 65, 2, 'com_modules.module.8', 'Toolbar', '{}'),
+(44, 18, 66, 67, 2, 'com_modules.module.9', 'Quick Icons', '{}'),
+(45, 18, 68, 69, 2, 'com_modules.module.10', 'Logged-in Users', '{}'),
+(46, 18, 70, 71, 2, 'com_modules.module.12', 'Admin Menu', '{}'),
+(47, 18, 72, 73, 2, 'com_modules.module.13', 'Admin Submenu', '{}'),
+(48, 18, 74, 75, 2, 'com_modules.module.14', 'User Status', '{}'),
+(49, 18, 76, 77, 2, 'com_modules.module.15', 'Title', '{}'),
+(50, 18, 78, 79, 2, 'com_modules.module.16', 'Login Form', '{}'),
+(51, 18, 80, 81, 2, 'com_modules.module.17', 'Breadcrumbs', '{}'),
+(52, 18, 82, 83, 2, 'com_modules.module.79', 'Multilanguage status', '{}'),
+(53, 18, 84, 85, 2, 'com_modules.module.86', 'Joomla Version', '{}'),
+(54, 16, 44, 45, 2, 'com_menus.menu.1', 'Main Menu', '{}'),
+(55, 18, 86, 87, 2, 'com_modules.module.87', 'Sample Data', '{}'),
+(56, 16, 46, 47, 2, 'com_menus.menu.2', 'Student', '{}'),
+(57, 16, 48, 49, 2, 'com_menus.menu.3', 'Teacher', '{}'),
+(58, 18, 88, 89, 2, 'com_modules.module.88', 'Teacher', '{}'),
+(59, 18, 90, 91, 2, 'com_modules.module.89', 'Student', '{}'),
+(60, 61, 21, 22, 3, 'com_content.article.1', 'Getting start', '{}'),
+(61, 8, 20, 25, 2, 'com_content.category.8', 'General', '{}'),
+(62, 18, 92, 93, 2, 'com_modules.module.90', 'New', '{}'),
+(64, 16, 50, 51, 2, 'com_menus.menu.4', 'Hello world', '{}'),
+(65, 18, 94, 95, 2, 'com_modules.module.91', 'Hello world', '{}'),
+(66, 8, 26, 27, 2, 'com_content.category.9', 'demo', '{}'),
+(73, 1, 175, 188, 1, 'com_student', 'COM_STUDENT', '{}'),
+(74, 73, 176, 177, 2, 'com_student.student.1', 'Admin', '{}'),
+(75, 73, 178, 179, 2, 'com_student.student.3', 'demo', '{}'),
+(76, 73, 180, 181, 2, 'com_student.student.4', 'demo', '{}'),
+(77, 73, 182, 183, 2, 'com_student.student.5', 'demo', '{}'),
+(78, 73, 184, 185, 2, 'com_student.student.6', 'demo', '{}'),
+(79, 73, 186, 187, 2, 'com_student.student.7', 'fdasasd', '{}'),
+(80, 1, 189, 192, 1, 'com_helloworld', 'COM_HELLOWORLD', '{}'),
+(81, 80, 190, 191, 2, 'com_helloworld.helloworld.3', 'Good bye World!', '{}'),
+(82, 18, 96, 97, 2, 'com_modules.module.92', 'Bootstrap Nav', '{}'),
+(83, 18, 98, 99, 2, 'com_modules.module.93', 'Bootstrap Slider', '{}'),
+(84, 18, 100, 101, 2, 'com_modules.module.94', 'BigSlider Module', '{}'),
+(85, 18, 102, 103, 2, 'com_modules.module.95', 'Bootstrap info 1', '{}'),
+(86, 18, 104, 105, 2, 'com_modules.module.96', 'Bootstrap info 2', '{}'),
+(87, 18, 106, 107, 2, 'com_modules.module.97', 'Bootstrap info 3', '{}'),
+(88, 18, 108, 109, 2, 'com_modules.module.98', 'Bootstrap info 4', '{}'),
+(89, 18, 110, 111, 2, 'com_modules.module.99', 'Bootstrap Content 4', '{}'),
+(90, 18, 112, 113, 2, 'com_modules.module.100', 'Bootstrap Content 1', '{}'),
+(91, 18, 114, 115, 2, 'com_modules.module.101', 'Bootstrap Content 2', '{}'),
+(92, 18, 116, 117, 2, 'com_modules.module.102', 'Bootstrap Content 3', '{}'),
+(93, 18, 118, 119, 2, 'com_modules.module.103', 'Bootstrap Content 5', '{}'),
+(94, 18, 120, 121, 2, 'com_modules.module.104', 'Bootstrap info 5', '{}'),
+(95, 18, 122, 123, 2, 'com_modules.module.105', 'Bootstrap info 6', '{}'),
+(96, 18, 124, 125, 2, 'com_modules.module.106', 'Bootstrap info 7', '{}'),
+(97, 18, 126, 127, 2, 'com_modules.module.107', 'Bootstrap Content 6', '{}'),
+(98, 18, 128, 129, 2, 'com_modules.module.108', 'Bootstrap info 7 (2)', '{}'),
+(99, 18, 130, 131, 2, 'com_modules.module.109', 'Bootstrap footer 1', '{}'),
+(100, 18, 132, 133, 2, 'com_modules.module.110', 'Bootstrap footer 2', '{}'),
+(101, 18, 134, 135, 2, 'com_modules.module.111', 'Bootstrap footer 4', '{}'),
+(102, 18, 136, 137, 2, 'com_modules.module.112', 'Bootstrap footer 3', '{}'),
+(103, 18, 138, 139, 2, 'com_modules.module.113', 'Bootstrap Footage', '{}'),
+(104, 61, 23, 24, 3, 'com_content.article.2', 'About', '{}'),
+(105, 18, 140, 141, 2, 'com_modules.module.114', 'Bootstrap Banner', '{}'),
+(106, 18, 142, 143, 2, 'com_modules.module.115', 'Bootstrap Logo', '{}');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `demo_extensions`
 --
 
@@ -555,7 +678,7 @@ INSERT INTO `demo_extensions` (`extension_id`, `package_id`, `name`, `type`, `el
 (33, 0, 'com_fields', 'component', 'com_fields', '', 1, 1, 1, 0, '{\"name\":\"com_fields\",\"type\":\"component\",\"creationDate\":\"March 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.7.0\",\"description\":\"COM_FIELDS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"fields\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (34, 0, 'com_associations', 'component', 'com_associations', '', 1, 1, 1, 0, '{\"name\":\"com_associations\",\"type\":\"component\",\"creationDate\":\"Januar 2017\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.7.0\",\"description\":\"COM_ASSOCIATIONS_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (102, 0, 'LIB_PHPUTF8', 'library', 'phputf8', '', 0, 1, 1, 1, '{\"name\":\"LIB_PHPUTF8\",\"type\":\"library\",\"creationDate\":\"2006\",\"author\":\"Harry Fuecks\",\"copyright\":\"Copyright various authors\",\"authorEmail\":\"hfuecks@gmail.com\",\"authorUrl\":\"http:\\/\\/sourceforge.net\\/projects\\/phputf8\",\"version\":\"0.5\",\"description\":\"LIB_PHPUTF8_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"phputf8\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(103, 0, 'LIB_JOOMLA', 'library', 'joomla', '', 0, 1, 1, 1, '{\"name\":\"LIB_JOOMLA\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"https:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"joomla\"}', '{\"mediaversion\":\"16b3bdc0875c23cb09cc278511e80064\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(103, 0, 'LIB_JOOMLA', 'library', 'joomla', '', 0, 1, 1, 1, '{\"name\":\"LIB_JOOMLA\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"https:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"joomla\"}', '{\"mediaversion\":\"388a31b7456c004da9125909c771f636\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (104, 0, 'LIB_IDNA', 'library', 'idna_convert', '', 0, 1, 1, 1, '{\"name\":\"LIB_IDNA\",\"type\":\"library\",\"creationDate\":\"2004\",\"author\":\"phlyLabs\",\"copyright\":\"2004-2011 phlyLabs Berlin, http:\\/\\/phlylabs.de\",\"authorEmail\":\"phlymail@phlylabs.de\",\"authorUrl\":\"http:\\/\\/phlylabs.de\",\"version\":\"0.8.0\",\"description\":\"LIB_IDNA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"idna_convert\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (105, 0, 'FOF', 'library', 'fof', '', 0, 1, 1, 1, '{\"name\":\"FOF\",\"type\":\"library\",\"creationDate\":\"2015-04-22 13:15:32\",\"author\":\"Nicholas K. Dionysopoulos \\/ Akeeba Ltd\",\"copyright\":\"(C)2011-2015 Nicholas K. Dionysopoulos\",\"authorEmail\":\"nicholas@akeebabackup.com\",\"authorUrl\":\"https:\\/\\/www.akeebabackup.com\",\"version\":\"2.4.3\",\"description\":\"LIB_FOF_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"fof\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (106, 0, 'LIB_PHPASS', 'library', 'phpass', '', 0, 1, 1, 1, '{\"name\":\"LIB_PHPASS\",\"type\":\"library\",\"creationDate\":\"2004-2006\",\"author\":\"Solar Designer\",\"copyright\":\"\",\"authorEmail\":\"solar@openwall.com\",\"authorUrl\":\"http:\\/\\/www.openwall.com\\/phpass\\/\",\"version\":\"0.3\",\"description\":\"LIB_PHPASS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"phpass\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
@@ -650,9 +773,9 @@ INSERT INTO `demo_extensions` (`extension_id`, `package_id`, `name`, `type`, `el
 (449, 0, 'plg_authentication_cookie', 'plugin', 'cookie', 'authentication', 0, 1, 1, 0, '{\"name\":\"plg_authentication_cookie\",\"type\":\"plugin\",\"creationDate\":\"July 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_AUTH_COOKIE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"cookie\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (450, 0, 'plg_twofactorauth_yubikey', 'plugin', 'yubikey', 'twofactorauth', 0, 0, 1, 0, '{\"name\":\"plg_twofactorauth_yubikey\",\"type\":\"plugin\",\"creationDate\":\"September 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.2.0\",\"description\":\"PLG_TWOFACTORAUTH_YUBIKEY_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"yubikey\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (451, 0, 'plg_search_tags', 'plugin', 'tags', 'search', 0, 1, 1, 0, '{\"name\":\"plg_search_tags\",\"type\":\"plugin\",\"creationDate\":\"March 2014\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_SEARCH_TAGS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"tags\"}', '{\"search_limit\":\"50\",\"show_tagged_items\":\"1\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1538710598}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1539007236}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (453, 0, 'plg_editors-xtd_module', 'plugin', 'module', 'editors-xtd', 0, 1, 1, 0, '{\"name\":\"plg_editors-xtd_module\",\"type\":\"plugin\",\"creationDate\":\"October 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_MODULE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"module\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(454, 0, 'plg_system_stats', 'plugin', 'stats', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_stats\",\"type\":\"plugin\",\"creationDate\":\"November 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_STATS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"stats\"}', '{\"mode\":1,\"lastrun\":1538710714,\"unique_id\":\"e46d4db3cbf0dfd347c1f2664cdaee19ef127704\",\"interval\":12}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(454, 0, 'plg_system_stats', 'plugin', 'stats', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_stats\",\"type\":\"plugin\",\"creationDate\":\"November 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_STATS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"stats\"}', '{\"mode\":1,\"lastrun\":1538981501,\"unique_id\":\"e46d4db3cbf0dfd347c1f2664cdaee19ef127704\",\"interval\":12}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (455, 0, 'plg_installer_packageinstaller', 'plugin', 'packageinstaller', 'installer', 0, 1, 1, 1, '{\"name\":\"plg_installer_packageinstaller\",\"type\":\"plugin\",\"creationDate\":\"May 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.6.0\",\"description\":\"PLG_INSTALLER_PACKAGEINSTALLER_PLUGIN_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"packageinstaller\"}', '', '', '', 0, '0000-00-00 00:00:00', 1, 0),
 (456, 0, 'PLG_INSTALLER_FOLDERINSTALLER', 'plugin', 'folderinstaller', 'installer', 0, 1, 1, 1, '{\"name\":\"PLG_INSTALLER_FOLDERINSTALLER\",\"type\":\"plugin\",\"creationDate\":\"May 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.6.0\",\"description\":\"PLG_INSTALLER_FOLDERINSTALLER_PLUGIN_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"folderinstaller\"}', '', '', '', 0, '0000-00-00 00:00:00', 2, 0),
 (457, 0, 'PLG_INSTALLER_URLINSTALLER', 'plugin', 'urlinstaller', 'installer', 0, 1, 1, 1, '{\"name\":\"PLG_INSTALLER_URLINSTALLER\",\"type\":\"plugin\",\"creationDate\":\"May 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.6.0\",\"description\":\"PLG_INSTALLER_URLINSTALLER_PLUGIN_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"urlinstaller\"}', '', '', '', 0, '0000-00-00 00:00:00', 3, 0),
@@ -704,7 +827,10 @@ INSERT INTO `demo_extensions` (`extension_id`, `package_id`, `name`, `type`, `el
 (10020, 0, 'Bootstrap Panel', 'module', 'mod_bootstrappanel', '', 0, 1, 0, 0, '{\"name\":\"Bootstrap Panel\",\"type\":\"module\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0\",\"description\":\"Place a bootstrap panel with custom content into any module position\",\"group\":\"\",\"filename\":\"mod_bootstrappanel\"}', '{\"moduleclass_sfx\":\"\",\"headingtext\":\"Bootstrap Block\",\"paragraphtext\":\"This is the Bootstrap Block module for Joomla. To edit this text and more, visit the module in the module manager and change the parameters\",\"headingtextcolor\":\"#333\",\"paragraphtextcolor\":\"#333\",\"show_glyphicon\":\"0\",\"glyphicon\":\"glyphicon glyphicon-th\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-primary\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10021, 0, 'Bootstrap Footage', 'module', 'mod_bootstrapfootage', '', 0, 1, 0, 0, '{\"name\":\"Bootstrap Footage\",\"type\":\"module\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0\",\"description\":\"Place a bootstrap Footage with custom content into any module position\",\"group\":\"\",\"filename\":\"mod_bootstrapfootage\"}', '{\"footage_text\":\"Copyright \\u00a9 Your Website 2014\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10022, 0, 'Bootstrap Banner', 'module', 'mod_bootstrapbanner', '', 0, 1, 0, 0, '{\"name\":\"Bootstrap Banner\",\"type\":\"module\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0\",\"description\":\"Place a bootstrap Banner with custom content into any module position\",\"group\":\"\",\"filename\":\"mod_bootstrapbanner\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10023, 0, 'Bootstrap Logo', 'module', 'mod_bootstraplogo', '', 0, 1, 0, 0, '{\"name\":\"Bootstrap Logo\",\"type\":\"module\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0\",\"description\":\"Place a bootstrap Logo with custom content into any module position\",\"group\":\"\",\"filename\":\"mod_bootstraplogo\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0);
+(10023, 0, 'Bootstrap Logo', 'module', 'mod_bootstraplogo', '', 0, 1, 0, 0, '{\"name\":\"Bootstrap Logo\",\"type\":\"module\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0\",\"description\":\"Place a bootstrap Logo with custom content into any module position\",\"group\":\"\",\"filename\":\"mod_bootstraplogo\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10024, 0, 'templatew3css', 'template', 'templatew3css', '', 0, 1, 1, 0, '{\"name\":\"templatew3css\",\"type\":\"template\",\"creationDate\":\"2018-27-08\",\"author\":\"Viet Truong\",\"copyright\":\"Viet Truong 2018\",\"authorEmail\":\"clandone01@gmail.com\",\"authorUrl\":\"http:\\/\\/www.example.com\",\"version\":\"1.0.2\",\"description\":\"My New Template\",\"group\":\"\",\"filename\":\"templateDetails\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10025, 0, 'Bootstrap 4 Joomla Template', 'template', 'bootstrap4joomlatemplate', '', 0, 1, 1, 0, '{\"name\":\"Bootstrap 4 Joomla Template\",\"type\":\"template\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"0.1\",\"description\":\"Bootstrap 4 Joomla Template\",\"group\":\"\",\"filename\":\"templateDetails\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10026, 0, 'Bootstrap Contact', 'module', 'mod_bootstrapcontact', '', 0, 1, 0, 0, '{\"name\":\"Bootstrap Contact\",\"type\":\"module\",\"creationDate\":\"Unknown\",\"author\":\"Unknown\",\"copyright\":\"\",\"authorEmail\":\"\",\"authorUrl\":\"\",\"version\":\"1.0\",\"description\":\"Place a bootstrap Contact with custom content into any module position\",\"group\":\"\",\"filename\":\"mod_bootstrapcontact\"}', '{\"moduleclass_sfx\":\"\",\"headingtext\":\"Bootstrap Block\",\"paragraphtext\":\"This is the Bootstrap Block module for Joomla. To edit this text and more, visit the module in the module manager and change the parameters\",\"headingtextcolor\":\"#333\",\"paragraphtextcolor\":\"#333\",\"show_glyphicon\":\"0\",\"glyphicon\":\"glyphicon glyphicon-th\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-primary\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1382,7 +1508,7 @@ INSERT INTO `demo_menu` (`id`, `menutype`, `title`, `alias`, `note`, `path`, `li
 (172, 'mainmenu', 'Add Student', 'add-student', '', 'add-student', 'index.php?option=com_student&view=form&layout=edit', 'component', -2, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 1, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 49, 50, 0, '*', 0),
 (185, 'main', 'COM_STUDENT_MENU', 'com-student-menu', '', 'com-student-menu', 'index.php?option=com_student', 'component', 1, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 1, '../media/com_student/images/Tux-16x16.png', 0, '{}', 51, 52, 0, '', 1),
 (187, 'main', 'COM_HELLOWORLD_MENU', 'com-helloworld-menu', '', 'com-helloworld-menu', 'index.php?option=com_helloworld', 'component', 1, 1, 1, 10005, 0, '0000-00-00 00:00:00', 0, 1, '../media/com_helloworld/images/Tux-16x16.png', 0, '{}', 53, 54, 0, '', 1),
-(188, 'mainmenu', 'About', 'about', '', 'about', 'index.php?option=com_content&view=article&id=2', 'component', 1, 1, 1, 22, 0, '0000-00-00 00:00:00', 0, 1, ' ', 21, '{\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_vote\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_hits\":\"\",\"show_tags\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0,\"astroid_menu_options\":{\"megamenu\":\"0\",\"showtitle\":\"0\",\"subtitle\":\"\",\"icon\":\"\",\"customclass\":\"\",\"width\":\"280px\",\"megamenu_width\":\"1200px\",\"alignment\":\"left\",\"megamenu_direction\":\"left\",\"rows\":\"[]\"},\"astroid_banner_enabled\":\"0\",\"astroid_banner_title_enabled\":\"1\",\"astroid_banner_title\":\"\",\"astroid_banner_subtitle\":\"\",\"astroid_banner_bgcolor\":\"\",\"astroid_banner_bgimage\":\"\",\"astroid_banner_title_tag\":\"h3\",\"astroid_banner_class\":\"\",\"astroid_banner_wrapper\":\"\"}', 55, 56, 0, '*', 0);
+(188, 'mainmenu', 'About', 'about', '', 'about', 'index.php?option=com_content&view=article&id=2', 'component', 1, 1, 1, 22, 0, '0000-00-00 00:00:00', 0, 1, ' ', 23, '{\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_vote\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_hits\":\"\",\"show_tags\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0,\"astroid_menu_options\":{\"megamenu\":\"0\",\"showtitle\":\"0\",\"subtitle\":\"\",\"icon\":\"\",\"customclass\":\"\",\"width\":\"280px\",\"megamenu_width\":\"1200px\",\"alignment\":\"left\",\"megamenu_direction\":\"left\",\"rows\":\"[]\"},\"astroid_banner_enabled\":\"0\",\"astroid_banner_title_enabled\":\"1\",\"astroid_banner_title\":\"\",\"astroid_banner_subtitle\":\"\",\"astroid_banner_bgcolor\":\"\",\"astroid_banner_bgimage\":\"\",\"astroid_banner_title_tag\":\"h3\",\"astroid_banner_class\":\"\",\"astroid_banner_wrapper\":\"\"}', 55, 56, 0, '*', 0);
 
 -- --------------------------------------------------------
 
@@ -1471,7 +1597,7 @@ CREATE TABLE `demo_modules` (
 --
 
 INSERT INTO `demo_modules` (`id`, `asset_id`, `title`, `note`, `content`, `ordering`, `position`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `published`, `module`, `access`, `showtitle`, `params`, `client_id`, `language`) VALUES
-(1, 39, 'Main Menu', '', '', 1, 'position-7', 0, '0000-00-00 00:00:00', '2018-09-10 08:23:35', '0000-00-00 00:00:00', 1, 'mod_menu', 1, 1, '{\"menutype\":\"mainmenu\",\"startLevel\":\"0\",\"endLevel\":\"0\",\"showAllChildren\":\"1\",\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"\",\"moduleclass_sfx\":\"_menu\",\"cache\":\"1\",\"cache_time\":\"900\",\"cachemode\":\"itemid\"}', 0, '*'),
+(1, 39, 'Main Menu', '', '', 1, 'menu', 0, '0000-00-00 00:00:00', '2018-09-10 08:23:35', '0000-00-00 00:00:00', 1, 'mod_menu', 1, 1, '{\"menutype\":\"mainmenu\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"_menu\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (2, 40, 'Login', '', '', 1, 'login', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_login', 1, 1, '', 1, '*'),
 (3, 41, 'Popular Articles', '', '', 3, 'cpanel', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_popular', 3, 1, '{\"count\":\"5\",\"catid\":\"\",\"user_id\":\"0\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":\"0\"}', 1, '*'),
 (4, 42, 'Recently Added Articles', '', '', 4, 'cpanel', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_latest', 3, 1, '{\"count\":\"5\",\"ordering\":\"c_dsc\",\"catid\":\"\",\"user_id\":\"0\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":\"0\"}', 1, '*'),
@@ -1491,7 +1617,7 @@ INSERT INTO `demo_modules` (`id`, `asset_id`, `title`, `note`, `content`, `order
 (89, 59, 'Student', '', '', 1, '', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 1, 1, '{\"menutype\":\"student\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (90, 62, 'New', '', '', 1, 'position-2', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_articles_latest', 1, 1, '{\"catid\":[8],\"count\":5,\"show_featured\":\"\",\"ordering\":\"c_dsc\",\"user_id\":\"0\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"static\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (91, 65, 'Hello world', '', '', 1, '', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 1, 1, '{\"menutype\":\"hello-world\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
-(92, 82, 'Bootstrap Nav', '', '', 1, 'menu', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstrapnav', 1, 1, '{\"menutype\":\"mainmenu\",\"base\":\"\",\"nav_type\":\"navbar\",\"background_color\":\"#f9f9f9\",\"text_color\":\"#333333\",\"active_background_color\":\"#f4f4f4\",\"fixed\":\"navbar-default\",\"float\":\"\",\"brand_type\":\"text\",\"brand_text\":\"Demo\",\"brand_image\":\"\",\"use_css\":\"0\",\"show_subnav\":\"1\",\"moduleclass_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"cache\":\"1\",\"cache_time\":\"900\",\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
+(92, 82, 'Bootstrap Nav', '', '', 1, 'menu', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, 'mod_bootstrapnav', 1, 1, '{\"menutype\":\"mainmenu\",\"base\":\"\",\"nav_type\":\"navbar\",\"background_color\":\"#f9f9f9\",\"text_color\":\"#333333\",\"active_background_color\":\"#f4f4f4\",\"fixed\":\"navbar-default\",\"float\":\"\",\"brand_type\":\"text\",\"brand_text\":\"Demo\",\"brand_image\":\"\",\"use_css\":\"0\",\"show_subnav\":\"1\",\"moduleclass_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"cache\":\"1\",\"cache_time\":\"900\",\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (93, 83, 'Bootstrap Slider', '', '', 1, 'big-sliders', 0, '0000-00-00 00:00:00', '2018-10-04 09:45:14', '0000-00-00 00:00:00', -2, 'mod_bootstrapslider', 1, 1, '{\"slidestoshow\":\"3\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (94, 84, 'BigSlider Module', '', '', 1, 'big-sliders', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bigslider', 1, 1, '{\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (95, 85, 'Bootstrap info 1', '', '', 1, 'info-1', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstrappanel', 1, 1, '{\"moduleclass_sfx\":\"panel-default\",\"headingtext\":\"Bootstrap Panel\",\"paragraphtext\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?\",\"headingtextcolor\":\"#333333\",\"paragraphtextcolor\":\"#333333\",\"show_glyphicon\":\"1\",\"glyphicon\":\"fa fa-fw fa-check\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-default\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
@@ -1514,7 +1640,10 @@ INSERT INTO `demo_modules` (`id`, `asset_id`, `title`, `note`, `content`, `order
 (112, 102, 'Bootstrap footer 3', '', '', 1, 'footer-3', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstrappanel', 1, 1, '{\"moduleclass_sfx\":\"panel-default\",\"headingtext\":\"Bootstrap Panel\",\"paragraphtext\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?\",\"headingtextcolor\":\"#333333\",\"paragraphtextcolor\":\"#333333\",\"show_glyphicon\":\"1\",\"glyphicon\":\"fa fa-fw fa-check\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-default\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (113, 103, 'Bootstrap Footage', '', '', 1, 'footage', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstrapfootage', 1, 1, '{\"footage_text\":\"Copyright \\u00a9 Your Website 2014\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
 (114, 105, 'Bootstrap Banner', '', '', 1, 'right-banner', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstrapbanner', 1, 1, '{\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
-(115, 106, 'Bootstrap Logo', '', '', 1, 'logo', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstraplogo', 1, 1, '{\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*');
+(115, 106, 'Bootstrap Logo', '', '', 1, 'logo', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstraplogo', 1, 1, '{\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
+(116, 107, 'Bootstrap Content 3 BT4', '', '', 1, 'content-3', 0, '0000-00-00 00:00:00', '2018-10-08 07:52:44', '0000-00-00 00:00:00', -2, 'mod_bootstrappanel', 1, 1, '{\"moduleclass_sfx\":\"panel-default\",\"headingtext\":\"Bootstrap Panel\",\"paragraphtext\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?\",\"headingtextcolor\":\"#333333\",\"paragraphtextcolor\":\"#333333\",\"show_glyphicon\":\"1\",\"glyphicon\":\"fa fa-fw fa-check\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-default\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
+(117, 108, 'Bootstrap Content 3 BT4 (2)', '', '', 1, 'info-right', 0, '0000-00-00 00:00:00', '2018-10-08 07:52:32', '0000-00-00 00:00:00', -2, 'mod_bootstrappanel', 1, 1, '{\"moduleclass_sfx\":\"panel-default\",\"headingtext\":\"Bootstrap Panel\",\"paragraphtext\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?\",\"headingtextcolor\":\"#333333\",\"paragraphtextcolor\":\"#333333\",\"show_glyphicon\":\"1\",\"glyphicon\":\"fa fa-fw fa-check\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-default\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
+(118, 109, 'Bootstrap Contact', '', '', 1, 'info-right', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_bootstrapcontact', 1, 1, '{\"moduleclass_sfx\":\"\",\"headingtext\":\"Bootstrap Block\",\"paragraphtext\":\"This is the Bootstrap Block module for Joomla. To edit this text and more, visit the module in the module manager and change the parameters\",\"headingtextcolor\":\"#333333\",\"paragraphtextcolor\":\"#333333\",\"show_glyphicon\":\"0\",\"glyphicon\":\"glyphicon glyphicon-th\",\"show_read_more\":\"1\",\"read_more_text\":\"Read More\",\"read_more_link\":\"#\",\"buttonstyle\":\"btn btn-primary\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*');
 
 -- --------------------------------------------------------
 
@@ -1557,27 +1686,30 @@ INSERT INTO `demo_modules_menu` (`moduleid`, `menuid`) VALUES
 (92, 0),
 (93, 101),
 (94, 0),
-(95, 101),
+(95, 0),
 (96, 101),
 (97, 101),
 (98, 101),
-(99, 101),
+(99, 0),
 (100, 101),
 (101, 101),
-(102, 101),
-(103, 101),
+(102, 0),
+(103, 0),
 (104, 101),
 (105, 101),
 (106, 101),
-(107, 101),
+(107, 0),
 (108, 101),
-(109, 101),
-(110, 101),
-(111, 101),
-(112, 101),
+(109, 0),
+(110, 0),
+(111, 0),
+(112, 0),
 (113, 0),
 (114, 0),
-(115, 0);
+(115, 0),
+(116, 101),
+(117, 188),
+(118, 0);
 
 -- --------------------------------------------------------
 
@@ -1727,11 +1859,10 @@ CREATE TABLE `demo_session` (
 --
 
 INSERT INTO `demo_session` (`session_id`, `client_id`, `guest`, `time`, `data`, `userid`, `username`) VALUES
-('hjffmtrl0092d02lkg6l6ckmq9', 0, 1, '1538656159', 'joomla|s:736:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTozO3M6NToidG9rZW4iO3M6MzI6InBiTkM3S0laQ1k1SHRqSjJ3N3MybWNKVnNCWGJYbGEzIjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1Mzg2NTYwNzU7czo0OiJsYXN0IjtpOjE1Mzg2NTYwNzU7czozOiJub3ciO2k6MTUzODY1NjE1ODt9fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7aTowO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 0, ''),
-('i2fohksmq8e5mc56g3gpajk781', 1, 0, '1538656155', 'joomla|s:816:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo3O3M6NToidG9rZW4iO3M6MzI6IjdZVlFSQk4wd3d1QWEwMWVhc3RsUUxybERVSkdQZTFsIjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1Mzg2NTYwNTI7czo0OiJsYXN0IjtpOjE1Mzg2NTYxNTQ7czozOiJub3ciO2k6MTUzODY1NjE1NDt9fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiI0NjgiO31zOjExOiJhcHBsaWNhdGlvbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJxdWV1ZSI7YTowOnt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 468, 'admin'),
-('rdm9feklkfdvml1f66hjpne906', 1, 0, '1538710727', 'joomla|s:868:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo1O3M6NToidGltZXIiO086ODoic3RkQ2xhc3MiOjM6e3M6NToic3RhcnQiO2k6MTUzODcxMDU4ODtzOjQ6Imxhc3QiO2k6MTUzODcxMDcxMjtzOjM6Im5vdyI7aToxNTM4NzEwNzEzO31zOjU6InRva2VuIjtzOjMyOiJQdHhtcTFFVU1JZ0RPSm9pS1BZWFp4NjhzZ0U0TEpJUyI7fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjoxOntzOjEzOiJjb21faW5zdGFsbGVyIjtPOjg6InN0ZENsYXNzIjoyOntzOjc6Im1lc3NhZ2UiO3M6MDoiIjtzOjE3OiJleHRlbnNpb25fbWVzc2FnZSI7czowOiIiO319czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiI0NjgiO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 468, 'admin'),
-('v1cigo72ubhak76j7s946gofld', 0, 1, '1538646680', 'joomla|s:736:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aToyMjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1Mzg2NDQ2NjE7czo0OiJsYXN0IjtpOjE1Mzg2NDY2Mjc7czozOiJub3ciO2k6MTUzODY0NjY3NTt9czo1OiJ0b2tlbiI7czozMjoiV2ZmREpIWWRZdGptNkhnU3VpVW9NZ1lOVDdvYzFaME0iO31zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6MDp7fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fXM6NDoidXNlciI7TzoyMDoiSm9vbWxhXENNU1xVc2VyXFVzZXIiOjE6e3M6MjoiaWQiO2k6MDt9fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO30=\";', 0, ''),
-('vnqqec80ng1r2rj2t31eickris', 1, 0, '1538646710', 'joomla|s:3404:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo4NjtzOjU6InRva2VuIjtzOjMyOiJvNUpQcFg5WHEwZ1JrbUpBY3hPUUcwQ3pKY0M5VXZYZiI7czo1OiJ0aW1lciI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJzdGFydCI7aToxNTM4NjQ0NDA3O3M6NDoibGFzdCI7aToxNTM4NjQ2NzA5O3M6Mzoibm93IjtpOjE1Mzg2NDY3MDk7fX1zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6Njp7czo5OiJjb21fbWVudXMiO086ODoic3RkQ2xhc3MiOjI6e3M6NToiaXRlbXMiO086ODoic3RkQ2xhc3MiOjM6e3M6ODoibWVudXR5cGUiO3M6ODoibWFpbm1lbnUiO3M6NDoibGlzdCI7YTo0OntzOjk6ImRpcmVjdGlvbiI7czozOiJhc2MiO3M6NToibGltaXQiO3M6MjoiMjAiO3M6ODoib3JkZXJpbmciO3M6NToiYS5sZnQiO3M6NToic3RhcnQiO2Q6MDt9czo5OiJjbGllbnRfaWQiO2k6MDt9czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoxOntzOjQ6Iml0ZW0iO086ODoic3RkQ2xhc3MiOjQ6e3M6NDoiZGF0YSI7TjtzOjQ6InR5cGUiO047czo0OiJsaW5rIjtOO3M6MjoiaWQiO2E6MDp7fX19fXM6MTE6ImNvbV9jb250ZW50IjtPOjg6InN0ZENsYXNzIjoxOntzOjQ6ImVkaXQiO086ODoic3RkQ2xhc3MiOjE6e3M6NzoiYXJ0aWNsZSI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJkYXRhIjtOO319fXM6MTM6ImNvbV9pbnN0YWxsZXIiO086ODoic3RkQ2xhc3MiOjQ6e3M6NzoibWVzc2FnZSI7czowOiIiO3M6MTc6ImV4dGVuc2lvbl9tZXNzYWdlIjtzOjA6IiI7czo3OiJpbnN0YWxsIjtPOjg6InN0ZENsYXNzIjoxOntzOjE3OiJpbnN0YWxsX2RpcmVjdG9yeSI7czo2NzoiQzpcVXNlcnNcZnV1ZnV1XERlc2t0b3BcQm9vdHN0cmFwX3RlbXBsYXRlX2pvb21sYVxtb2RfYm9vdHN0cmFwbG9nbyI7fXM6MTI6InJlZGlyZWN0X3VybCI7Tjt9czoxMToiY29tX21vZHVsZXMiO086ODoic3RkQ2xhc3MiOjM6e3M6NDoiZWRpdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czo2OiJtb2R1bGUiO086ODoic3RkQ2xhc3MiOjI6e3M6MjoiaWQiO2E6MDp7fXM6NDoiZGF0YSI7Tjt9fXM6MzoiYWRkIjtPOjg6InN0ZENsYXNzIjoxOntzOjY6Im1vZHVsZSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czoxMjoiZXh0ZW5zaW9uX2lkIjtOO3M6NjoicGFyYW1zIjtOO319czo3OiJtb2R1bGVzIjtPOjg6InN0ZENsYXNzIjo0OntzOjY6ImZpbHRlciI7YTo3OntzOjY6InNlYXJjaCI7czowOiIiO3M6NToic3RhdGUiO3M6MDoiIjtzOjg6InBvc2l0aW9uIjtzOjA6IiI7czo2OiJtb2R1bGUiO3M6MDoiIjtzOjg6Im1lbnVpdGVtIjtzOjA6IiI7czo2OiJhY2Nlc3MiO3M6MDoiIjtzOjg6Imxhbmd1YWdlIjtzOjA6IiI7fXM6OToiY2xpZW50X2lkIjtpOjA7czo0OiJsaXN0IjthOjI6e3M6MTI6ImZ1bGxvcmRlcmluZyI7czoxNDoiYS5wb3NpdGlvbiBBU0MiO3M6NToibGltaXQiO3M6MjoiMjAiO31zOjEwOiJsaW1pdHN0YXJ0IjtpOjIwO319czoxNDoiY29tX2NhdGVnb3JpZXMiO086ODoic3RkQ2xhc3MiOjE6e3M6MTA6ImNhdGVnb3JpZXMiO086ODoic3RkQ2xhc3MiOjE6e3M6NzoiY29udGVudCI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo2OiJmaWx0ZXIiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiZXh0ZW5zaW9uIjtzOjExOiJjb21fY29udGVudCI7fXM6NDoibGlzdCI7YTo0OntzOjk6ImRpcmVjdGlvbiI7czozOiJhc2MiO3M6NToibGltaXQiO3M6MjoiMjAiO3M6ODoib3JkZXJpbmciO3M6NToiYS5sZnQiO3M6NToic3RhcnQiO2Q6MDt9fX19czoxMDoiY29tX2ZpZWxkcyI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo2OiJmaWVsZHMiO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY29udGV4dCI7czoxOToiY29tX2NvbnRlbnQuYXJ0aWNsZSI7czo0OiJsaXN0IjthOjQ6e3M6OToiZGlyZWN0aW9uIjtzOjM6ImFzYyI7czo1OiJsaW1pdCI7czoyOiIyMCI7czo4OiJvcmRlcmluZyI7czoxMDoiYS5vcmRlcmluZyI7czo1OiJzdGFydCI7ZDowO319czo2OiJncm91cHMiO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY29udGV4dCI7czoxOToiY29tX2NvbnRlbnQuYXJ0aWNsZSI7czo0OiJsaXN0IjthOjQ6e3M6OToiZGlyZWN0aW9uIjtzOjM6ImFzYyI7czo1OiJsaW1pdCI7czoyOiIyMCI7czo4OiJvcmRlcmluZyI7czoxMDoiYS5vcmRlcmluZyI7czo1OiJzdGFydCI7ZDowO319fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtzOjM6IjQ2OCI7fXM6MTE6ImFwcGxpY2F0aW9uIjtPOjg6InN0ZENsYXNzIjoxOntzOjU6InF1ZXVlIjthOjA6e319fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO30=\";', 468, 'admin');
+('48kb9ka4fijs9imcjd84ni8bcr', 0, 1, '1539008035', 'joomla|s:668:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToyNjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1MzkwMDczMjc7czo0OiJsYXN0IjtpOjE1MzkwMDgwMzA7czozOiJub3ciO2k6MTUzOTAwODAzNTt9fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7aTowO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 0, ''),
+('blagihf0h84gcqskip4332eqv4', 0, 1, '1538988492', 'joomla|s:668:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aTo5MDtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1Mzg5ODE0NTE7czo0OiJsYXN0IjtpOjE1Mzg5ODg0NjI7czozOiJub3ciO2k6MTUzODk4ODQ5MTt9fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7aTowO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 0, ''),
+('hj4bqr5rq1gb3r1dron5rtsv5l', 1, 0, '1538987114', 'joomla|s:1548:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aToxMjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1Mzg5ODcwNzA7czo0OiJsYXN0IjtpOjE1Mzg5ODcxMTM7czozOiJub3ciO2k6MTUzODk4NzExNDt9czo1OiJ0b2tlbiI7czozMjoicEtRTkZ6dnlMQzlyNlZMcnhjRElNenhYcUQ5cGdEdGciO31zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxMToiY29tX21vZHVsZXMiO086ODoic3RkQ2xhc3MiOjM6e3M6NzoibW9kdWxlcyI7Tzo4OiJzdGRDbGFzcyI6NDp7czo2OiJmaWx0ZXIiO2E6Nzp7czo2OiJzZWFyY2giO3M6MDoiIjtzOjU6InN0YXRlIjtzOjA6IiI7czo4OiJwb3NpdGlvbiI7czowOiIiO3M6NjoibW9kdWxlIjtzOjA6IiI7czo4OiJtZW51aXRlbSI7czowOiIiO3M6NjoiYWNjZXNzIjtzOjA6IiI7czo4OiJsYW5ndWFnZSI7czowOiIiO31zOjk6ImNsaWVudF9pZCI7aTowO3M6NDoibGlzdCI7YToyOntzOjEyOiJmdWxsb3JkZXJpbmciO3M6MTQ6ImEucG9zaXRpb24gQVNDIjtzOjU6ImxpbWl0IjtzOjI6IjIwIjt9czoxMDoibGltaXRzdGFydCI7aToyMDt9czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoxOntzOjY6Im1vZHVsZSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czoyOiJpZCI7YTowOnt9czo0OiJkYXRhIjtOO319czozOiJhZGQiO086ODoic3RkQ2xhc3MiOjE6e3M6NjoibW9kdWxlIjtPOjg6InN0ZENsYXNzIjoyOntzOjEyOiJleHRlbnNpb25faWQiO047czo2OiJwYXJhbXMiO047fX19fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fXM6NDoidXNlciI7TzoyMDoiSm9vbWxhXENNU1xVc2VyXFVzZXIiOjE6e3M6MjoiaWQiO3M6MzoiNDY4Ijt9czoxMToiYXBwbGljYXRpb24iO086ODoic3RkQ2xhc3MiOjE6e3M6NToicXVldWUiO2E6MDp7fX19fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 468, 'admin'),
+('nregvj0qu9vv7j60253b675u3v', 1, 0, '1539008016', 'joomla|s:1868:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aToyMztzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1MzkwMDcyMjk7czo0OiJsYXN0IjtpOjE1MzkwMDgwMTY7czozOiJub3ciO2k6MTUzOTAwODAxNjt9czo1OiJ0b2tlbiI7czozMjoiNFNRS3Bsc21wUWdwTHF6QWNEOWVoYlk0T043U0NTYkYiO31zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czoxMzoiY29tX2luc3RhbGxlciI7Tzo4OiJzdGRDbGFzcyI6NDp7czo3OiJtZXNzYWdlIjtzOjA6IiI7czoxNzoiZXh0ZW5zaW9uX21lc3NhZ2UiO3M6MDoiIjtzOjc6Imluc3RhbGwiO086ODoic3RkQ2xhc3MiOjE6e3M6MTc6Imluc3RhbGxfZGlyZWN0b3J5IjtzOjYxOiJDOlxVc2Vyc1xmdXVmdXVcRGVza3RvcFxCb290c3RyYXBfdGVtcGxhdGVfam9vbWxhXG1vZF9jb250YWN0Ijt9czoxMjoicmVkaXJlY3RfdXJsIjtOO31zOjExOiJjb21fbW9kdWxlcyI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoxOntzOjY6Im1vZHVsZSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czoyOiJpZCI7YTowOnt9czo0OiJkYXRhIjtOO319czozOiJhZGQiO086ODoic3RkQ2xhc3MiOjE6e3M6NjoibW9kdWxlIjtPOjg6InN0ZENsYXNzIjoyOntzOjEyOiJleHRlbnNpb25faWQiO047czo2OiJwYXJhbXMiO047fX1zOjc6Im1vZHVsZXMiO086ODoic3RkQ2xhc3MiOjQ6e3M6NjoiZmlsdGVyIjthOjc6e3M6Njoic2VhcmNoIjtzOjA6IiI7czo1OiJzdGF0ZSI7czowOiIiO3M6ODoicG9zaXRpb24iO3M6MDoiIjtzOjY6Im1vZHVsZSI7czowOiIiO3M6ODoibWVudWl0ZW0iO3M6MDoiIjtzOjY6ImFjY2VzcyI7czowOiIiO3M6ODoibGFuZ3VhZ2UiO3M6MDoiIjt9czo5OiJjbGllbnRfaWQiO2k6MDtzOjQ6Imxpc3QiO2E6Mjp7czoxMjoiZnVsbG9yZGVyaW5nIjtzOjE0OiJhLnBvc2l0aW9uIEFTQyI7czo1OiJsaW1pdCI7czoyOiIyMCI7fXM6MTA6ImxpbWl0c3RhcnQiO2k6MjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiI0NjgiO31zOjExOiJhcHBsaWNhdGlvbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJxdWV1ZSI7YTowOnt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 468, 'admin');
 
 -- --------------------------------------------------------
 
@@ -1842,7 +1973,9 @@ INSERT INTO `demo_template_styles` (`id`, `template`, `client_id`, `home`, `titl
 (18, 'demo_template_admin', 1, '0', 'demo_template_admin - Default', '{\"styleBgColor\":\"#fff\",\"styleBodyFontSize\":\"14px\",\"styleBodyFontWeight\":\"400\",\"styleTextColor\":\"#101010\",\"styleLinkColor\":\"#163f87\",\"styleLinkHoverColor\":\"#303030\",\"styleQuickLinks\":\"1\",\"styleHeaderBgColor\":\"#12346f\",\"styleLogoImage\":\"https:\\/\\/static.joomlart.com\\/images\\/blog\\/2016\\/june\\/joomla-logo2.png\",\"styleLogoSmImage\":\"\",\"styleLogoBgColor\":\"#12346f\",\"styleHeaderTextColor\":\"#ffffff\",\"styleHeaderLinkColor\":\"#ffffff\",\"styleHeaderLinkHoverColor\":\"#ffffff\",\"styleSearchBg\":\"#274f95\",\"styleSearchTextColor\":\"#87a0ce\",\"styleMenuPosition\":\"0\",\"styleMenuBgColor\":\"#163f87\",\"styleMenuBorderColor\":\"#1e478e\",\"styleMenuColor\":\"#87a0ce\",\"styleMenuHoverColor\":\"#fff\",\"styleMenuHoverBgColor\":\"#153b7f\",\"styleMenuActiveColor\":\"#fff\",\"styleMenuActiveBGColor\":\"#a88b8a\",\"styleMenuBorderHoverColor\":\"#c40202\",\"styleSubnavBgColor\":\"#12346f\",\"styleSubnavTextColor\":\"#87a0ce\",\"styleSubnavHoverBgColor\":\"#12346f\",\"styleSubnavHoverColor\":\"#fff\",\"styleSubnavActiveBgColor\":\"#12346f\",\"styleSubnavActiveColor\":\"#fff\",\"styleStatusBgColor\":\"#e0e0e0\",\"styleStatusBorderColor\":\"#d4d4d4\",\"styleStatusTextColor\":\"#626262\",\"styleStatusLinkColor\":\"#626262\",\"styleStatusLinkHoverColor\":\"#626262\",\"styleLoginBgImage\":\"\",\"styleLoginFormBgColor\":\"#163f87\",\"styleLoginLogoImage\":\"https:\\/\\/static.joomlart.com\\/images\\/blog\\/2016\\/june\\/joomla-logo1.png\",\"styleLoginLogoSmImage\":\"\",\"styleLoginLogoSmText\":\"\",\"styleLoginLogoSmLink\":\"https:\\/\\/joomlart.com\",\"styleLoginFormTextColor\":\"#101010\",\"styleLoginFormButtonBg\":\"#163f87\",\"styleLoginFormBtnTextColor\":\"#87a0ce\",\"styleLoginFormButtonBgHover\":\"#153b7f\",\"styleButtonTextHoverColor\":\"#fff\"}'),
 (19, 'demo_template_admin', 1, '0', 'demo_template_admin - Default', '{\"styleBgColor\":\"#fff\",\"styleBodyFontSize\":\"14px\",\"styleBodyFontWeight\":\"400\",\"styleTextColor\":\"#101010\",\"styleLinkColor\":\"#163f87\",\"styleLinkHoverColor\":\"#303030\",\"styleQuickLinks\":\"1\",\"styleHeaderBgColor\":\"#12346f\",\"styleLogoImage\":\"https:\\/\\/static.joomlart.com\\/images\\/blog\\/2016\\/june\\/joomla-logo2.png\",\"styleLogoSmImage\":\"\",\"styleLogoBgColor\":\"#12346f\",\"styleHeaderTextColor\":\"#ffffff\",\"styleHeaderLinkColor\":\"#ffffff\",\"styleHeaderLinkHoverColor\":\"#ffffff\",\"styleSearchBg\":\"#274f95\",\"styleSearchTextColor\":\"#87a0ce\",\"styleMenuPosition\":\"0\",\"styleMenuBgColor\":\"#163f87\",\"styleMenuBorderColor\":\"#1e478e\",\"styleMenuColor\":\"#87a0ce\",\"styleMenuHoverColor\":\"#fff\",\"styleMenuHoverBgColor\":\"#153b7f\",\"styleMenuActiveColor\":\"#fff\",\"styleMenuActiveBGColor\":\"#a88b8a\",\"styleMenuBorderHoverColor\":\"#c40202\",\"styleSubnavBgColor\":\"#12346f\",\"styleSubnavTextColor\":\"#87a0ce\",\"styleSubnavHoverBgColor\":\"#12346f\",\"styleSubnavHoverColor\":\"#fff\",\"styleSubnavActiveBgColor\":\"#12346f\",\"styleSubnavActiveColor\":\"#fff\",\"styleStatusBgColor\":\"#e0e0e0\",\"styleStatusBorderColor\":\"#d4d4d4\",\"styleStatusTextColor\":\"#626262\",\"styleStatusLinkColor\":\"#626262\",\"styleStatusLinkHoverColor\":\"#626262\",\"styleLoginBgImage\":\"\",\"styleLoginFormBgColor\":\"#163f87\",\"styleLoginLogoImage\":\"https:\\/\\/static.joomlart.com\\/images\\/blog\\/2016\\/june\\/joomla-logo1.png\",\"styleLoginLogoSmImage\":\"\",\"styleLoginLogoSmText\":\"\",\"styleLoginLogoSmLink\":\"https:\\/\\/joomlart.com\",\"styleLoginFormTextColor\":\"#101010\",\"styleLoginFormButtonBg\":\"#163f87\",\"styleLoginFormBtnTextColor\":\"#87a0ce\",\"styleLoginFormButtonBgHover\":\"#153b7f\",\"styleButtonTextHoverColor\":\"#fff\"}'),
 (20, 'tpl_jdseattle', 0, '0', 'JD Seattle   - Default', '{\"astroid_template_id\":\"1\"}'),
-(21, 'bootstrapjoomlatemplate', 0, '1', 'Bootstrap Joomla Template - Default', '[]');
+(21, 'bootstrapjoomlatemplate', 0, '1', 'Bootstrap Joomla Template - Default', '[]'),
+(22, 'templatew3css', 0, '0', 'templatew3css - Default', '{}'),
+(23, 'bootstrap4joomlatemplate', 0, '0', 'Bootstrap 4 Joomla Template - Default', '{}');
 
 -- --------------------------------------------------------
 
@@ -2023,7 +2156,7 @@ INSERT INTO `demo_updates` (`update_id`, `update_site_id`, `extension_id`, `name
 (65, 2, 0, 'Sinhala', '', 'pkg_si-LK', 'package', '', 0, '3.3.1.2', '', 'https://update.joomla.org/language/details3/si-LK_details.xml', '', ''),
 (66, 2, 0, 'Dari Persian', '', 'pkg_prs-AF', 'package', '', 0, '3.4.4.2', '', 'https://update.joomla.org/language/details3/prs-AF_details.xml', '', ''),
 (67, 2, 0, 'Turkmen', '', 'pkg_tk-TM', 'package', '', 0, '3.5.0.2', '', 'https://update.joomla.org/language/details3/tk-TM_details.xml', '', ''),
-(68, 2, 0, 'Irish', '', 'pkg_ga-IE', 'package', '', 0, '3.8.7.1', '', 'https://update.joomla.org/language/details3/ga-IE_details.xml', '', ''),
+(68, 2, 0, 'Irish', '', 'pkg_ga-IE', 'package', '', 0, '3.8.12.1', '', 'https://update.joomla.org/language/details3/ga-IE_details.xml', '', ''),
 (69, 2, 0, 'Dzongkha', '', 'pkg_dz-BT', 'package', '', 0, '3.6.2.1', '', 'https://update.joomla.org/language/details3/dz-BT_details.xml', '', ''),
 (70, 2, 0, 'Slovenian', '', 'pkg_sl-SI', 'package', '', 0, '3.8.12.1', '', 'https://update.joomla.org/language/details3/sl-SI_details.xml', '', ''),
 (71, 2, 0, 'Spanish CO', '', 'pkg_es-CO', 'package', '', 0, '3.8.11.1', '', 'https://update.joomla.org/language/details3/es-CO_details.xml', '', ''),
@@ -2055,12 +2188,12 @@ CREATE TABLE `demo_update_sites` (
 --
 
 INSERT INTO `demo_update_sites` (`update_site_id`, `name`, `type`, `location`, `enabled`, `last_check_timestamp`, `extra_query`) VALUES
-(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1538710717, ''),
-(2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 1, 1538710722, ''),
+(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1539007328, ''),
+(2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 1, 1539007333, ''),
 (3, 'Joomla! Update Component Update Site', 'extension', 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', 0, 0, ''),
-(4, 'WebInstaller Update Site', 'extension', 'https://appscdn.joomla.org/webapps/jedapps/webinstaller.xml', 1, 1538710722, ''),
-(5, 'astroid_framework', 'extension', 'https://cdn.joomdev.com/updates/astroid_system_plugin.xml', 1, 1538710725, ''),
-(6, 'Astroid Framework', 'extension', 'https://cdn.joomdev.com/updates/astroid_framework.xml', 1, 1538710727, '');
+(4, 'WebInstaller Update Site', 'extension', 'https://appscdn.joomla.org/webapps/jedapps/webinstaller.xml', 1, 1539007334, ''),
+(5, 'astroid_framework', 'extension', 'https://cdn.joomdev.com/updates/astroid_system_plugin.xml', 1, 1539007337, ''),
+(6, 'Astroid Framework', 'extension', 'https://cdn.joomdev.com/updates/astroid_framework.xml', 1, 1539007338, '');
 
 -- --------------------------------------------------------
 
@@ -2144,7 +2277,7 @@ CREATE TABLE `demo_users` (
 --
 
 INSERT INTO `demo_users` (`id`, `name`, `username`, `email`, `password`, `block`, `sendEmail`, `registerDate`, `lastvisitDate`, `activation`, `params`, `lastResetTime`, `resetCount`, `otpKey`, `otep`, `requireReset`) VALUES
-(468, 'Super User', 'admin', 'nguyentudb1995@gmail.com', '$2y$10$but8JlEQVMeiOJui7evOOeSPzxOdUiN5aPRmx1KSD00d6VKxZEUAi', 0, 1, '2018-09-05 02:12:04', '2018-10-05 03:37:56', '0', '', '0000-00-00 00:00:00', 0, '', '', 0);
+(468, 'Super User', 'admin', 'nguyentudb1995@gmail.com', '$2y$10$but8JlEQVMeiOJui7evOOeSPzxOdUiN5aPRmx1KSD00d6VKxZEUAi', 0, 1, '2018-09-05 02:12:04', '2018-10-08 14:01:56', '0', '', '0000-00-00 00:00:00', 0, '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -2258,857 +2391,8 @@ INSERT INTO `demo_viewlevels` (`id`, `title`, `ordering`, `rules`) VALUES
 (5, 'Guest', 1, '[9]'),
 (6, 'Super Users', 4, '[8]');
 
---
--- Indexes for dumped tables
---
+-- --------------------------------------------------------
 
---
--- Indexes for table `demo_assets`
---
-ALTER TABLE `demo_assets`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `idx_asset_name` (`name`),
-  ADD KEY `idx_lft_rgt` (`lft`,`rgt`),
-  ADD KEY `idx_parent_id` (`parent_id`);
-
---
--- Indexes for table `demo_associations`
---
-ALTER TABLE `demo_associations`
-  ADD PRIMARY KEY (`context`,`id`),
-  ADD KEY `idx_key` (`key`);
-
---
--- Indexes for table `demo_astroid_templates`
---
-ALTER TABLE `demo_astroid_templates`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `demo_banners`
---
-ALTER TABLE `demo_banners`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_state` (`state`),
-  ADD KEY `idx_own_prefix` (`own_prefix`),
-  ADD KEY `idx_metakey_prefix` (`metakey_prefix`(100)),
-  ADD KEY `idx_banner_catid` (`catid`),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_banner_clients`
---
-ALTER TABLE `demo_banner_clients`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_own_prefix` (`own_prefix`),
-  ADD KEY `idx_metakey_prefix` (`metakey_prefix`(100));
-
---
--- Indexes for table `demo_banner_tracks`
---
-ALTER TABLE `demo_banner_tracks`
-  ADD PRIMARY KEY (`track_date`,`track_type`,`banner_id`),
-  ADD KEY `idx_track_date` (`track_date`),
-  ADD KEY `idx_track_type` (`track_type`),
-  ADD KEY `idx_banner_id` (`banner_id`);
-
---
--- Indexes for table `demo_categories`
---
-ALTER TABLE `demo_categories`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `cat_idx` (`extension`,`published`,`access`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_path` (`path`(100)),
-  ADD KEY `idx_left_right` (`lft`,`rgt`),
-  ADD KEY `idx_alias` (`alias`(100)),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_contact_details`
---
-ALTER TABLE `demo_contact_details`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_state` (`published`),
-  ADD KEY `idx_catid` (`catid`),
-  ADD KEY `idx_createdby` (`created_by`),
-  ADD KEY `idx_featured_catid` (`featured`,`catid`),
-  ADD KEY `idx_language` (`language`),
-  ADD KEY `idx_xreference` (`xreference`);
-
---
--- Indexes for table `demo_content`
---
-ALTER TABLE `demo_content`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_state` (`state`),
-  ADD KEY `idx_catid` (`catid`),
-  ADD KEY `idx_createdby` (`created_by`),
-  ADD KEY `idx_featured_catid` (`featured`,`catid`),
-  ADD KEY `idx_language` (`language`),
-  ADD KEY `idx_xreference` (`xreference`),
-  ADD KEY `idx_alias` (`alias`(191));
-
---
--- Indexes for table `demo_contentitem_tag_map`
---
-ALTER TABLE `demo_contentitem_tag_map`
-  ADD UNIQUE KEY `uc_ItemnameTagid` (`type_id`,`content_item_id`,`tag_id`),
-  ADD KEY `idx_tag_type` (`tag_id`,`type_id`),
-  ADD KEY `idx_date_id` (`tag_date`,`tag_id`),
-  ADD KEY `idx_core_content_id` (`core_content_id`);
-
---
--- Indexes for table `demo_content_frontpage`
---
-ALTER TABLE `demo_content_frontpage`
-  ADD PRIMARY KEY (`content_id`);
-
---
--- Indexes for table `demo_content_rating`
---
-ALTER TABLE `demo_content_rating`
-  ADD PRIMARY KEY (`content_id`);
-
---
--- Indexes for table `demo_content_types`
---
-ALTER TABLE `demo_content_types`
-  ADD PRIMARY KEY (`type_id`),
-  ADD KEY `idx_alias` (`type_alias`(100));
-
---
--- Indexes for table `demo_extensions`
---
-ALTER TABLE `demo_extensions`
-  ADD PRIMARY KEY (`extension_id`),
-  ADD KEY `element_clientid` (`element`,`client_id`),
-  ADD KEY `element_folder_clientid` (`element`,`folder`,`client_id`),
-  ADD KEY `extension` (`type`,`element`,`folder`,`client_id`);
-
---
--- Indexes for table `demo_fields`
---
-ALTER TABLE `demo_fields`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_state` (`state`),
-  ADD KEY `idx_created_user_id` (`created_user_id`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_context` (`context`(191)),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_fields_categories`
---
-ALTER TABLE `demo_fields_categories`
-  ADD PRIMARY KEY (`field_id`,`category_id`);
-
---
--- Indexes for table `demo_fields_groups`
---
-ALTER TABLE `demo_fields_groups`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_state` (`state`),
-  ADD KEY `idx_created_by` (`created_by`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_context` (`context`(191)),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_fields_values`
---
-ALTER TABLE `demo_fields_values`
-  ADD KEY `idx_field_id` (`field_id`),
-  ADD KEY `idx_item_id` (`item_id`(191));
-
---
--- Indexes for table `demo_finder_filters`
---
-ALTER TABLE `demo_finder_filters`
-  ADD PRIMARY KEY (`filter_id`);
-
---
--- Indexes for table `demo_finder_links`
---
-ALTER TABLE `demo_finder_links`
-  ADD PRIMARY KEY (`link_id`),
-  ADD KEY `idx_type` (`type_id`),
-  ADD KEY `idx_title` (`title`(100)),
-  ADD KEY `idx_md5` (`md5sum`),
-  ADD KEY `idx_url` (`url`(75)),
-  ADD KEY `idx_published_list` (`published`,`state`,`access`,`publish_start_date`,`publish_end_date`,`list_price`),
-  ADD KEY `idx_published_sale` (`published`,`state`,`access`,`publish_start_date`,`publish_end_date`,`sale_price`);
-
---
--- Indexes for table `demo_finder_links_terms0`
---
-ALTER TABLE `demo_finder_links_terms0`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms1`
---
-ALTER TABLE `demo_finder_links_terms1`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms2`
---
-ALTER TABLE `demo_finder_links_terms2`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms3`
---
-ALTER TABLE `demo_finder_links_terms3`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms4`
---
-ALTER TABLE `demo_finder_links_terms4`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms5`
---
-ALTER TABLE `demo_finder_links_terms5`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms6`
---
-ALTER TABLE `demo_finder_links_terms6`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms7`
---
-ALTER TABLE `demo_finder_links_terms7`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms8`
---
-ALTER TABLE `demo_finder_links_terms8`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_terms9`
---
-ALTER TABLE `demo_finder_links_terms9`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_termsa`
---
-ALTER TABLE `demo_finder_links_termsa`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_termsb`
---
-ALTER TABLE `demo_finder_links_termsb`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_termsc`
---
-ALTER TABLE `demo_finder_links_termsc`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_termsd`
---
-ALTER TABLE `demo_finder_links_termsd`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_termse`
---
-ALTER TABLE `demo_finder_links_termse`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_links_termsf`
---
-ALTER TABLE `demo_finder_links_termsf`
-  ADD PRIMARY KEY (`link_id`,`term_id`),
-  ADD KEY `idx_term_weight` (`term_id`,`weight`),
-  ADD KEY `idx_link_term_weight` (`link_id`,`term_id`,`weight`);
-
---
--- Indexes for table `demo_finder_taxonomy`
---
-ALTER TABLE `demo_finder_taxonomy`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `parent_id` (`parent_id`),
-  ADD KEY `state` (`state`),
-  ADD KEY `ordering` (`ordering`),
-  ADD KEY `access` (`access`),
-  ADD KEY `idx_parent_published` (`parent_id`,`state`,`access`);
-
---
--- Indexes for table `demo_finder_taxonomy_map`
---
-ALTER TABLE `demo_finder_taxonomy_map`
-  ADD PRIMARY KEY (`link_id`,`node_id`),
-  ADD KEY `link_id` (`link_id`),
-  ADD KEY `node_id` (`node_id`);
-
---
--- Indexes for table `demo_finder_terms`
---
-ALTER TABLE `demo_finder_terms`
-  ADD PRIMARY KEY (`term_id`),
-  ADD UNIQUE KEY `idx_term` (`term`),
-  ADD KEY `idx_term_phrase` (`term`,`phrase`),
-  ADD KEY `idx_stem_phrase` (`stem`,`phrase`),
-  ADD KEY `idx_soundex_phrase` (`soundex`,`phrase`);
-
---
--- Indexes for table `demo_finder_terms_common`
---
-ALTER TABLE `demo_finder_terms_common`
-  ADD KEY `idx_word_lang` (`term`,`language`),
-  ADD KEY `idx_lang` (`language`);
-
---
--- Indexes for table `demo_finder_tokens`
---
-ALTER TABLE `demo_finder_tokens`
-  ADD KEY `idx_word` (`term`),
-  ADD KEY `idx_context` (`context`);
-
---
--- Indexes for table `demo_finder_tokens_aggregate`
---
-ALTER TABLE `demo_finder_tokens_aggregate`
-  ADD KEY `token` (`term`),
-  ADD KEY `keyword_id` (`term_id`);
-
---
--- Indexes for table `demo_finder_types`
---
-ALTER TABLE `demo_finder_types`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `title` (`title`);
-
---
--- Indexes for table `demo_helloworld`
---
-ALTER TABLE `demo_helloworld`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `demo_languages`
---
-ALTER TABLE `demo_languages`
-  ADD PRIMARY KEY (`lang_id`),
-  ADD UNIQUE KEY `idx_sef` (`sef`),
-  ADD UNIQUE KEY `idx_langcode` (`lang_code`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_ordering` (`ordering`);
-
---
--- Indexes for table `demo_menu`
---
-ALTER TABLE `demo_menu`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `idx_client_id_parent_id_alias_language` (`client_id`,`parent_id`,`alias`(100),`language`),
-  ADD KEY `idx_componentid` (`component_id`,`menutype`,`published`,`access`),
-  ADD KEY `idx_menutype` (`menutype`),
-  ADD KEY `idx_left_right` (`lft`,`rgt`),
-  ADD KEY `idx_alias` (`alias`(100)),
-  ADD KEY `idx_path` (`path`(100)),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_menu_types`
---
-ALTER TABLE `demo_menu_types`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `idx_menutype` (`menutype`);
-
---
--- Indexes for table `demo_messages`
---
-ALTER TABLE `demo_messages`
-  ADD PRIMARY KEY (`message_id`),
-  ADD KEY `useridto_state` (`user_id_to`,`state`);
-
---
--- Indexes for table `demo_messages_cfg`
---
-ALTER TABLE `demo_messages_cfg`
-  ADD UNIQUE KEY `idx_user_var_name` (`user_id`,`cfg_name`);
-
---
--- Indexes for table `demo_modules`
---
-ALTER TABLE `demo_modules`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `published` (`published`,`access`),
-  ADD KEY `newsfeeds` (`module`,`published`),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_modules_menu`
---
-ALTER TABLE `demo_modules_menu`
-  ADD PRIMARY KEY (`moduleid`,`menuid`);
-
---
--- Indexes for table `demo_newsfeeds`
---
-ALTER TABLE `demo_newsfeeds`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_state` (`published`),
-  ADD KEY `idx_catid` (`catid`),
-  ADD KEY `idx_createdby` (`created_by`),
-  ADD KEY `idx_language` (`language`),
-  ADD KEY `idx_xreference` (`xreference`);
-
---
--- Indexes for table `demo_overrider`
---
-ALTER TABLE `demo_overrider`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `demo_postinstall_messages`
---
-ALTER TABLE `demo_postinstall_messages`
-  ADD PRIMARY KEY (`postinstall_message_id`);
-
---
--- Indexes for table `demo_redirect_links`
---
-ALTER TABLE `demo_redirect_links`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_old_url` (`old_url`(100)),
-  ADD KEY `idx_link_modifed` (`modified_date`);
-
---
--- Indexes for table `demo_schemas`
---
-ALTER TABLE `demo_schemas`
-  ADD PRIMARY KEY (`extension_id`,`version_id`);
-
---
--- Indexes for table `demo_session`
---
-ALTER TABLE `demo_session`
-  ADD PRIMARY KEY (`session_id`),
-  ADD KEY `userid` (`userid`),
-  ADD KEY `time` (`time`);
-
---
--- Indexes for table `demo_student`
---
-ALTER TABLE `demo_student`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `demo_tags`
---
-ALTER TABLE `demo_tags`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `tag_idx` (`published`,`access`),
-  ADD KEY `idx_access` (`access`),
-  ADD KEY `idx_checkout` (`checked_out`),
-  ADD KEY `idx_path` (`path`(100)),
-  ADD KEY `idx_left_right` (`lft`,`rgt`),
-  ADD KEY `idx_alias` (`alias`(100)),
-  ADD KEY `idx_language` (`language`);
-
---
--- Indexes for table `demo_template_styles`
---
-ALTER TABLE `demo_template_styles`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_template` (`template`),
-  ADD KEY `idx_home` (`home`);
-
---
--- Indexes for table `demo_ucm_base`
---
-ALTER TABLE `demo_ucm_base`
-  ADD PRIMARY KEY (`ucm_id`),
-  ADD KEY `idx_ucm_item_id` (`ucm_item_id`),
-  ADD KEY `idx_ucm_type_id` (`ucm_type_id`),
-  ADD KEY `idx_ucm_language_id` (`ucm_language_id`);
-
---
--- Indexes for table `demo_ucm_content`
---
-ALTER TABLE `demo_ucm_content`
-  ADD PRIMARY KEY (`core_content_id`),
-  ADD KEY `tag_idx` (`core_state`,`core_access`),
-  ADD KEY `idx_access` (`core_access`),
-  ADD KEY `idx_alias` (`core_alias`(100)),
-  ADD KEY `idx_language` (`core_language`),
-  ADD KEY `idx_title` (`core_title`(100)),
-  ADD KEY `idx_modified_time` (`core_modified_time`),
-  ADD KEY `idx_created_time` (`core_created_time`),
-  ADD KEY `idx_content_type` (`core_type_alias`(100)),
-  ADD KEY `idx_core_modified_user_id` (`core_modified_user_id`),
-  ADD KEY `idx_core_checked_out_user_id` (`core_checked_out_user_id`),
-  ADD KEY `idx_core_created_user_id` (`core_created_user_id`),
-  ADD KEY `idx_core_type_id` (`core_type_id`);
-
---
--- Indexes for table `demo_ucm_history`
---
-ALTER TABLE `demo_ucm_history`
-  ADD PRIMARY KEY (`version_id`),
-  ADD KEY `idx_ucm_item_id` (`ucm_type_id`,`ucm_item_id`),
-  ADD KEY `idx_save_date` (`save_date`);
-
---
--- Indexes for table `demo_updates`
---
-ALTER TABLE `demo_updates`
-  ADD PRIMARY KEY (`update_id`);
-
---
--- Indexes for table `demo_update_sites`
---
-ALTER TABLE `demo_update_sites`
-  ADD PRIMARY KEY (`update_site_id`);
-
---
--- Indexes for table `demo_update_sites_extensions`
---
-ALTER TABLE `demo_update_sites_extensions`
-  ADD PRIMARY KEY (`update_site_id`,`extension_id`);
-
---
--- Indexes for table `demo_usergroups`
---
-ALTER TABLE `demo_usergroups`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `idx_usergroup_parent_title_lookup` (`parent_id`,`title`),
-  ADD KEY `idx_usergroup_title_lookup` (`title`),
-  ADD KEY `idx_usergroup_adjacency_lookup` (`parent_id`),
-  ADD KEY `idx_usergroup_nested_set_lookup` (`lft`,`rgt`) USING BTREE;
-
---
--- Indexes for table `demo_users`
---
-ALTER TABLE `demo_users`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_name` (`name`(100)),
-  ADD KEY `idx_block` (`block`),
-  ADD KEY `username` (`username`),
-  ADD KEY `email` (`email`);
-
---
--- Indexes for table `demo_user_keys`
---
-ALTER TABLE `demo_user_keys`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `series` (`series`),
-  ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `demo_user_notes`
---
-ALTER TABLE `demo_user_notes`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `idx_user_id` (`user_id`),
-  ADD KEY `idx_category_id` (`catid`);
-
---
--- Indexes for table `demo_user_profiles`
---
-ALTER TABLE `demo_user_profiles`
-  ADD UNIQUE KEY `idx_user_id_profile_key` (`user_id`,`profile_key`);
-
---
--- Indexes for table `demo_user_usergroup_map`
---
-ALTER TABLE `demo_user_usergroup_map`
-  ADD PRIMARY KEY (`user_id`,`group_id`);
-
---
--- Indexes for table `demo_viewlevels`
---
-ALTER TABLE `demo_viewlevels`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `idx_assetgroup_title_lookup` (`title`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `demo_assets`
---
-ALTER TABLE `demo_assets`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=107;
-
---
--- AUTO_INCREMENT for table `demo_astroid_templates`
---
-ALTER TABLE `demo_astroid_templates`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `demo_banners`
---
-ALTER TABLE `demo_banners`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_banner_clients`
---
-ALTER TABLE `demo_banner_clients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_categories`
---
-ALTER TABLE `demo_categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT for table `demo_contact_details`
---
-ALTER TABLE `demo_contact_details`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_content`
---
-ALTER TABLE `demo_content`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `demo_content_types`
---
-ALTER TABLE `demo_content_types`
-  MODIFY `type_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
-
---
--- AUTO_INCREMENT for table `demo_extensions`
---
-ALTER TABLE `demo_extensions`
-  MODIFY `extension_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10024;
-
---
--- AUTO_INCREMENT for table `demo_fields`
---
-ALTER TABLE `demo_fields`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_fields_groups`
---
-ALTER TABLE `demo_fields_groups`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_finder_filters`
---
-ALTER TABLE `demo_finder_filters`
-  MODIFY `filter_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_finder_links`
---
-ALTER TABLE `demo_finder_links`
-  MODIFY `link_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_finder_taxonomy`
---
-ALTER TABLE `demo_finder_taxonomy`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `demo_finder_terms`
---
-ALTER TABLE `demo_finder_terms`
-  MODIFY `term_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_finder_types`
---
-ALTER TABLE `demo_finder_types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_helloworld`
---
-ALTER TABLE `demo_helloworld`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT for table `demo_languages`
---
-ALTER TABLE `demo_languages`
-  MODIFY `lang_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `demo_menu`
---
-ALTER TABLE `demo_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=189;
-
---
--- AUTO_INCREMENT for table `demo_menu_types`
---
-ALTER TABLE `demo_menu_types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT for table `demo_messages`
---
-ALTER TABLE `demo_messages`
-  MODIFY `message_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_modules`
---
-ALTER TABLE `demo_modules`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=116;
-
---
--- AUTO_INCREMENT for table `demo_newsfeeds`
---
-ALTER TABLE `demo_newsfeeds`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_overrider`
---
-ALTER TABLE `demo_overrider`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key';
-
---
--- AUTO_INCREMENT for table `demo_postinstall_messages`
---
-ALTER TABLE `demo_postinstall_messages`
-  MODIFY `postinstall_message_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-
---
--- AUTO_INCREMENT for table `demo_redirect_links`
---
-ALTER TABLE `demo_redirect_links`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_student`
---
-ALTER TABLE `demo_student`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-
---
--- AUTO_INCREMENT for table `demo_tags`
---
-ALTER TABLE `demo_tags`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `demo_template_styles`
---
-ALTER TABLE `demo_template_styles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
-
---
--- AUTO_INCREMENT for table `demo_ucm_content`
---
-ALTER TABLE `demo_ucm_content`
-  MODIFY `core_content_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_ucm_history`
---
-ALTER TABLE `demo_ucm_history`
-  MODIFY `version_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
---
--- AUTO_INCREMENT for table `demo_updates`
---
-ALTER TABLE `demo_updates`
-  MODIFY `update_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
-
---
--- AUTO_INCREMENT for table `demo_update_sites`
---
-ALTER TABLE `demo_update_sites`
-  MODIFY `update_site_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
---
--- AUTO_INCREMENT for table `demo_usergroups`
---
-ALTER TABLE `demo_usergroups`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT for table `demo_users`
---
-ALTER TABLE `demo_users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=469;
-
---
--- AUTO_INCREMENT for table `demo_user_keys`
---
-ALTER TABLE `demo_user_keys`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_user_notes`
---
-ALTER TABLE `demo_user_notes`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `demo_viewlevels`
---
-ALTER TABLE `demo_viewlevels`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=7;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
