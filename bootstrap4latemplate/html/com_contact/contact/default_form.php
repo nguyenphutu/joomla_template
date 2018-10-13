@@ -22,26 +22,26 @@ if (isset($this->error)) : ?>
 	<form id="contact-form" action="<?php echo JRoute::_('index.php'); ?>" method="post" class="form-validate form-horizontal">
 		<fieldset>
 			<legend><?php echo JText::_('COM_CONTACT_FORM_LABEL'); ?></legend>
-			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('contact_name'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('contact_name'); ?></div>
+			<div class="form-group">
+				<?php echo $this->form->getLabel('contact_name'); ?>
+				<?php echo $this->form->getInput('contact_name'); ?>
 			</div>
-			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('contact_email'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('contact_email'); ?></div>
+			<div class="form-group">
+				<?php echo $this->form->getLabel('contact_email'); ?>
+				<?php echo $this->form->getInput('contact_email'); ?>
 			</div>
-			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('contact_subject'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('contact_subject'); ?></div>
+			<div class="form-group">
+				<?php echo $this->form->getLabel('contact_subject'); ?>
+				<?php echo $this->form->getInput('contact_subject'); ?>
 			</div>
-			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('contact_message'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('contact_message'); ?></div>
+			<div class="form-group">
+				<?php echo $this->form->getLabel('contact_message'); ?>
+				<?php echo $this->form->getInput('contact_message'); ?>
 			</div>
 				<?php if ($this->params->get('show_email_copy', 0)){ ?>
-					<div class="control-group">
-						<div class="control-label"><?php echo $this->form->getLabel('contact_email_copy'); ?></div>
-						<div class="controls"><?php echo $this->form->getInput('contact_email_copy'); ?></div>
+					<div class="form-group">
+						<?php echo $this->form->getLabel('contact_email_copy'); ?>
+						<?php echo $this->form->getInput('contact_email_copy'); ?>
 					</div>
 				<?php } ?>
 			<?php //Dynamically load any additional fields from plugins. ?>
@@ -49,19 +49,15 @@ if (isset($this->error)) : ?>
 					<?php if ($fieldset->name !== 'contact'):?>
 						<?php $fields = $this->form->getFieldset($fieldset->name);?>
 						<?php foreach ($fields as $field) : ?>
-							<div class="control-group">
-								<?php if ($field->hidden) : ?>
-									<div class="controls">
+							<div class="form-group">
+								<?php if ($field->hidden) : ?>									
 									 <?php echo $field->input;?>
-									</div>
-								<?php else:?>
-									<div class="control-label">
-										<?php echo $field->label; ?>
-										<?php if (!$field->required && $field->type !== 'Spacer') : ?>
-											<span class="optional"><?php echo JText::_('COM_CONTACT_OPTIONAL');?></span>
-										<?php endif; ?>
-									</div>
-									<div class="controls"><?php echo $field->input;?></div>
+								<?php else:?>									
+									<?php echo $field->label; ?>
+									<?php if (!$field->required && $field->type !== 'Spacer') : ?>
+										<span class="optional"><?php echo JText::_('COM_CONTACT_OPTIONAL');?></span>
+									<?php endif; ?>
+									<?php echo $field->input;?>
 								<?php endif;?>
 							</div>
 						<?php endforeach;?>

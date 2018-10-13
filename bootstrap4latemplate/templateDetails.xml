@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
 <extension version="3.1" type="template" client="site" method="upgrade">
-   <name>Bootstrap 4 Template Component Content</name>
+   <name>Bootstrap 4 Template</name>
    <version>0.1</version>
-   <description>Bootstrap 4 Template Component Content</description>
+   <description>Bootstrap 4 Template</description>
    <files>
       <folder>css</folder>
       <folder>html</folder>
       <folder>images</folder>
+      <folder>font-awesome</folder>
+      <folder>vendor</folder>
       <folder>js</folder>
       <filename>index.php</filename>
       <filename>templateDetails.xml</filename>
@@ -16,8 +18,9 @@
    <positions>
       <position>logo</position>
       <position>right-banner</position>
+      <position>top-banner</position>
       <position>menu</position>
-      <position>info-1</position>
+      <position>info-right</position>
       <position>content-3</position>
       <position>content-4</position>
       <position>content-5</position>

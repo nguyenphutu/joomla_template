@@ -36,11 +36,8 @@
 			</div>
 		</nav>
 		<!-- Header with Background Image -->
-		<header class="business-header">
-			<div class="row">
-				<div class="col-lg-12">
-				</div>
-			</div>
+		<header>
+			<jdoc:include type="modules" name="top-banner" style="none"/>			
 		</header>
 
 		<div id="main-content">
@@ -52,7 +49,7 @@
 					<hr>
 				</div>
 				<div class="col-sm-4">
-					<jdoc:include type="modules" name="info-1" style="none"/>
+					<jdoc:include type="modules" name="info-right" style="none"/>
 				</div>
 			</div>
 		</div>
@@ -94,8 +91,9 @@
 		</div>		
 	</div>		
 	<!-- Footer -->
-	<jdoc:include type="modules" name="footage" style="none"/>
-
+	<footer class="my-4">
+		<jdoc:include type="modules" name="footage" style="none"/>
+	</footer>
 	<!-- jQuery -->
 	<script src="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/vendor/jquery/jquery.min.js"></script>
 	<!-- Bootstrap Core JavaScript -->

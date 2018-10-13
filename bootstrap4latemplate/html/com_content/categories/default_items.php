@@ -21,7 +21,7 @@ if ($this->maxLevelcat != 0 && count($this->items[$this->parent->id]) > 0) :
 		$class = ' class="last"';
 	}
 	?>
-	<li<?php echo $class; ?>>
+	<li <?php echo $class; ?>>
 	<?php $class = ''; ?>
 		<h3 class="item-title"><a href="<?php echo JRoute::_(ContentHelperRoute::getCategoryRoute($item->id));?>">
 			<?php echo $this->escape($item->title); ?></a>
